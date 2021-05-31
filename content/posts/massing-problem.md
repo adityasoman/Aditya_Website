@@ -4,6 +4,7 @@ date: "2021-05-31"
 tags:
   - architecture
   - zoning
+cover: https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/01.Massing_problem/Massing_Problem_key_Image.jpg
 keywords:
   - architecture
   - computation
