@@ -1,5 +1,5 @@
 ---
-title: Massing Problem Section 2
+title: Unit Assignment Problem Section 2
 date: "2021-06-31"
 tags:
   - architecture
@@ -11,7 +11,7 @@ description: Finding the appropriate volumetric design of the building
 showFullContent: false
 ---
 
-# Massing Problem Section 2
+# Unit Assignment Problem Section 2
 
 The problem of finding the appropriate volumetric design of the building is the highest level of the space layout problem. In this stage the impact of placing volumes representing the built mass on the site is studied with respect to its effect on the surrounding buildings as well as its own performance in achieving the urban level design goals.
 
