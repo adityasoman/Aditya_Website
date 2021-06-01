@@ -1,5 +1,5 @@
 ---
-title: Abstract GEN-ARCH
+title: GEN-ARCH
 date: "2021-06-31"
 tags:
   - Generative Design
@@ -13,11 +13,11 @@ keywords:
 description: Platform for developing Architectural configurations using generative design methodologies.
 showFullContent: false
 ---
-# Abstract
+# Introduction
 
 The Constructing industry around the world is growing exponentially. In the Netherlands itself there is a need of constructing 1 million affordable new homes by 2030. Such a massive demand for new buildings has given rise to a need for a solution for `mass customization` of architectural configurations. Simple repetition or a badly configured building is not ideal and can lead to a lot of social and environmental problems.
 
-Generative Design can offer a digital solution for this mass customization problem for generating Architectural configurations. It can utilize the power of Artificial intelligence in design to generate a system where users can create custom solutions rapidly.
+Generative Design can offer a digital solution for this mass customization problem for generating Architectural configurations. It can utilize the power of `Artificial intelligence` in design to generate a system where designers can create custom solutions rapidly.
 
 The second part of the customization problem is the user participation in determining the customization goals. More often than not the end users of the built space do not get an opinion in the configuration process and this leads to a undemocratic design solutions producing urban inequality.
 
