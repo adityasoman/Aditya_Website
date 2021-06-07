@@ -1,5 +1,5 @@
 ---
-title: Unit Assignment Problem Section 2
+title: 03 Unit Assignment Problem
 date: "2021-06-31"
 tags:
   - architecture
@@ -10,7 +10,6 @@ keywords:
 description: Finding the appropriate volumetric design of the building
 showFullContent: false
 ---
-
 # Unit Assignment Problem Section 2
 
 The problem of finding the appropriate volumetric design of the building is the highest level of the space layout problem. In this stage the impact of placing volumes representing the built mass on the site is studied with respect to its effect on the surrounding buildings as well as its own performance in achieving the urban level design goals.
@@ -54,9 +53,10 @@ print('The area of the triangle is %0.2f' %area)
 
 ### Summary
 
-| COL 1         | COL2          |  COL 3  |
-| ------------- | :------------ | :-----: |
-| Architecure   | Computation   |  Build  |
+
+| COL 1 | COL2 | COL 3 |
+| - | :- | :-: |
+| Architecure | Computation | Build |
 | Architecure 1 | Computation 1 | Build 1 |
 | Architecure 2 | Computation 2 | Build 2 |
 | Architecure 3 | Computation 3 | Build 3 |
