@@ -1,5 +1,5 @@
 ---
-title: 00 GEN-ARCH
+title: Future Developments
 date: "2021-07-31"
 tags:
   - Generative Design
