@@ -64,4 +64,8 @@ interior_lattice.to_csv(csv_path)
 
 The binder link to the code [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adityasoman/GEN-ARCH_Binder/a96f583c4cbf7c3058c9708c0849c99f37e1c718?filepath=02.Zoning_problem%2FEnviornment_lattice_generation%2FVoxelization%20for%20the%20massing%20models.ipynb)
 
-{{< image src="https://marckoehler.com/wp-content/uploads/SP2018-Superlofts-HH-Night-1-LowRes.jpg" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Voxelised_Base.png" >}}
+
+Voxelised Base
+
+# Eucledian Distance based simulations
