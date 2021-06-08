@@ -32,6 +32,6 @@ The variants where self development plots were placed in the center of the site 
 
 {{< image src="../Images/Site Diagram-05.jpg" >}}
 
-{{< image src="../Images/Abstract_Cover.png" >}}
+{{< image src="../Images/Site Diagram-05.jpg" >}}
 
-{{< image src="https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Site%20Diagram-05.jpg" >}}
+![Alt Text](../Images/Site Diagram-05.jpg)
