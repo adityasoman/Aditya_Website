@@ -14,7 +14,7 @@ showFullContent: false
 
 The simulations which were performed were based on the specific case considered in the project. The idea at this stage is not to generate a highly accurate simulation models, but simulations which are good enough for decision making. The generation of highly accurate simulations is also not possible at this stage since the material properties and the geometry of the various building elements is not defined yet.
 
-The simulations are broadly divided into two types .The first one is based on finding `Eucledian distances` and the second one is based on `Ray obstruction` .
+The simulations are broadly divided into two types. The first one is based on finding `Eucledian distances` and the second one is based on `Ray obstruction` .
 
 
 # Base voxelization
