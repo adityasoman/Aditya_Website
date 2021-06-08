@@ -31,3 +31,7 @@ Looking at the space program two distinctions can be made regarding the massing 
 The variants where self development plots were placed in the center of the site were eliminated due to the possibility of shading due to the taller buildings surrounding them. In the visibility simulation points of interest on the IJ river Front access road and the canal where a pedestrian bridge is proposed is considered with equal weightage for visibility from all points of interest.The modelling and simulation process is done on Rhino and Grasshopper with the plugin Ladybug for environmental simulations.
 
 {{< image src="../Images/Site Diagram-05.jpg" >}}
+
+{{< image src="../Images/Abstract_Cover.png" >}}
+
+{{< image src="https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Site%20Diagram-05.jpg" >}}
