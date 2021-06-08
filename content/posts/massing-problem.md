@@ -2,13 +2,16 @@
 title: Massing Problem
 date: "2021-05-31"
 tags:
-  - architecture
-  - zoning
-cover: https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/01.Massing_problem/Massing_Problem_key_Image.jpg
+  - Multi-criteria Decision analysis
+  - Human-machine Co-design
+  - Human-machine Co-design
+cover: ../Images/Massing_problem_Cover.png
 keywords:
-  - architecture
-  - computation
-description: Finding the appropriate volumetric design of the building
+  - architectural design
+  - computational design 
+  - participatory design
+  - open buildings
+description: Massing problem solution which involves finding the appropriate volumetric design of the building as the base for futher configurational resolution.
 showFullContent: false
 ---
 # Massing Problem
@@ -41,8 +44,7 @@ The variants where self development plots were placed in the center of the site 
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/Website/Stage02.jpg" >}}
 
-
-Various design variants were developed and certain set of simulations were selected for defining the performance of the variant which was followed by comparison and eventual selection of the variant.  _The simulations used for this stage include the Total Daylight hours simulation,Visibility simulation, Access to Sky from the Unbuilt spaces, Total built space/Sunlight hours,Total floor area (considering an arbitrary floor height of 3m), Total Unbuilt Space, Total built space / Total unbuilt space_._ The simulation values are recorded in an excel file and then the MCDA process is performed to rank and select the best options from the generated variants. The reason for certain calculations like the ratio of the built/green spaces or the ratio of the floor area with the sunlight hours was considered to _avoid designing bigger volumes for a better performance_._
+Various design variants were developed and certain set of simulations were selected for defining the performance of the variant which was followed by comparison and eventual selection of the variant.  _The simulations used for this stage include the Total Daylight hours simulation,Visibility simulation, Access to Sky from the Unbuilt spaces, Total built space/Sunlight hours,Total floor area (considering an arbitrary floor height of 3m), Total Unbuilt Space, Total built space / Total unbuilt space_. The simulation values are recorded in an excel file and then the MCDA process is performed to rank and select the best options from the generated variants. The reason for certain calculations like the ratio of the built/green spaces or the ratio of the floor area with the sunlight hours was considered to _avoid designing bigger volumes for a better performance_.
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/Website/Massing_problem/Massing_Problem2.jpg" >}}
 
