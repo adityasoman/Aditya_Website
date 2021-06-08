@@ -1,6 +1,6 @@
 ---
 title: Future Developments
-date: "2021-07-31"
+date: "2021-06-08"
 tags:
   - Generative Design
   - Python Programming
