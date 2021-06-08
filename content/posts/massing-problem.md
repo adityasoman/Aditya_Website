@@ -3,8 +3,8 @@ title: Massing Problem
 date: "2021-05-31"
 tags:
   - Multi-criteria Decision analysis
-  - Human-machine Co-design
-  - Human-machine Co-design
+  - Human-Machine Co-design
+  - Participatory design 
 cover: ../Images/Massing_problem_Cover.png
 keywords:
   - architectural design
