@@ -10,7 +10,7 @@ keywords:
   - Generative floor planning
   - Participatory Design 
   - Open Building Configurator
-cover: https://github.com/adityasoman/Aditya_Website/blob/Abstract/content/Images/Abstract_Cover.png
+cover: https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Abstract_Cover.png
 description: Platform for developing Architectural configurations using generative design methodologies.
 showFullContent: false
 ---
