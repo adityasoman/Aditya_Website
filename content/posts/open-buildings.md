@@ -1,6 +1,6 @@
 ---
-title: Generative Architecture (GEN-ARCH)
-date: "2021-06-10"
+title: Open Building Movement
+date: "2021-06-09"
 tags:
   - Generative Design
   - Python Programming

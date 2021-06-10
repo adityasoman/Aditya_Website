@@ -1,6 +1,6 @@
 ---
 title: Multi-criteria decision analysis
-date: "2021-05-31"
+date: "2021-06-07"
 tags:
   - Multi-criteria Decision analysis
 

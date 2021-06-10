@@ -1,6 +1,6 @@
 ---
 title: 02 Zoning Problem - Enviornmental Simulations
-date: "2021-06-1"
+date: "2021-06-05"
 tags:
   - Enviornmental simulations
   - Zoning problem 
@@ -77,7 +77,6 @@ Voxelised Base
 
 The Quiteness Lattice is a measure of the sound pressure recieved at each of the locations in the mass or the voxelated grid.The calculations related to the sound insulation are complicated and require a lot of data with respect to the material qualities of the building the sound pressure at the source of sound etc.The general equation for airborne sound insulation of a facade is given as:
 
-
 The distance from the source of the sound to the room is critical in this calculation and there can be a 6Db reduction in the sound pressure level with doubling of the distance from the source.This relation can be easily calculated, and will provide a good estimate for decision making regarding the quietness of the voxel with respect to the source of sound.The code for calculating the same would be as follows:
 
 ```python
@@ -132,9 +131,7 @@ The facade closeness lattice determines the distance of the voxels in an lattice
 
 **Distance from the South Facade Lattice**
 
-
 The binder link to the code for generating distance based lattices  ![Binder](https://mybinder.org/badge_logo.svg)
-
 
 # Mesh Intersection based simulations
 
