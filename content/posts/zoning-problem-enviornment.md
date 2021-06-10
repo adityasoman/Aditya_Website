@@ -16,7 +16,6 @@ The simulations which were performed were based on the specific case considered 
 
 The simulations are broadly divided into two types. The first one is based on finding `Eucledian distances` and the second one is based on `Ray obstruction` .
 
-
 # Base voxelization
 
 The initial step before calculations of simulation lattices was to separate the 4 masses into separate lattices for generating values locally for the individual masses. The voxelated lattice of the massing as derived from Massing Problem is a numpy n-dimensional array consisting of ones and zeroes. Ones represents the voxels inside the 3d object which are available for occupation and zero represents the exterior voxels which are not relevant to the simulations.The pseudo-code for voxelation is as follows.
@@ -69,3 +68,50 @@ The binder link to the code [![Binder](https://mybinder.org/badge_logo.svg)](htt
 Voxelised Base
 
 # Eucledian Distance based simulations
+
+## QuitenessLattices
+
+The Quiteness Lattice is a measure of the sound pressure recieved at each of the locations in the mass or the voxelated grid.The calculations related to the sound insulation are complicated and require a lot of data with respect to the material qualities of the building the sound pressure at the source of sound etc.The general equation for airborne sound insulation of a facade is given as:
+
+
+The distance from the source of the sound to the room is critical in this calculation and there can be a 6Db reduction in the sound pressure level with doubling of the distance from the source.This relation can be easily calculated, and will provide a good estimate for decision making regarding the quietness of the voxel with respect to the source of sound.The code for calculating the same would be as follows:
+
+```python
+# Upload base voxel grid
+# Upload Context meshes
+# Upload Noise source locations
+
+# Find the voxel Eucledian coordinates
+# convert to lattice
+init_lattice = envelope_lattice +1
+availability_lattice_voxels = tg.to_lattice(init_lattice, init_lattice)
+voxel_coordinates= availability_lattice_voxels.centroids
+flattened_lattice = envelope_lattice.flatten()
+
+# Find distances for Quiteness 
+# The distance from each source of sound is calculated and the minimum distance from them is choosen
+
+Eucledian_distance = sc.spatial.distance.cdist(Noise_sources,voxel_coordinates)
+noise_from_each_source = Eucledian_distance.T
+Average_quiteness_indexing= np.argmin(noise_from_each_source, axis=1)
+Average_quiteness_values = []
+
+for branch,index in zip(noise_from_each_source,Average_quiteness_indexing):
+    Average_quiteness_values.append(branch[index])
+  
+Quiteeness_lattice_padded= np.array([num if boolean else 0 for boolean, num in zip(flattened_lattice, cycle(Average_quiteness_values))])
+
+padded_array = np.array(Quiteeness_lattice_padded)
+
+Quiteness_lattice_np = Quiteeness_lattice_padded.reshape(envelope_lattice.shape)
+
+Quiteness_lattice =tg.to_lattice(Quiteness_lattice_np, Quiteness_lattice_np.shape)
+
+
+```
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Voxelised_Base.png" >}}
+
+## Closeness to the Facades Lattices
+
+The facade closeness lattice determines the distance of the voxels in an lattice with respect to the outermost voxels in a specified direction. The code for calculating the same would be as follows:
