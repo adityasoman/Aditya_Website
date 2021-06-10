@@ -1,5 +1,5 @@
 ---
-title: Massing Problem
+title: 01 Massing Problem
 date: "2021-05-31"
 tags:
   - Multi-criteria Decision analysis
@@ -52,11 +52,9 @@ In the `The Third step` involves refinement of the massing developed in stage tw
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/Website/Massing_problem/Massing_Problem4.jpg" >}}
 
-
 # Limitations
 
 The massing process described in the previous sections is very subjective in terms of its appropriateness towards designing a building mass.The idea behind the process was to experiment with a methodical way of breaking down the design process into smaller steps so that the decision making process in the whole problem is traceable and does not directly jump into conclusions. With an increase in the accessibility of computational tools and parametric modelling software this whole generation process can be different as long as final outcome of the process (finding the location of built mass on site)  can still be used for the next problem in spatial configuration.
-
 
 # Conclusions
 

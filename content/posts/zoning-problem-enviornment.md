@@ -8,7 +8,7 @@ tags:
 keywords:
   - architecture
   - Ladybug Tools
-  - Enviornmetal simulations
+  - Enviornmental simulations
 
 cover: ../Images/Quiteness_lattice.png
 description: The article explains the simplified enviornmetal simulations done for generating a base for decision making. 
