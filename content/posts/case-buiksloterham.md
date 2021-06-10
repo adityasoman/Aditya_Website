@@ -1,6 +1,6 @@
 ---
 title: Case Buiksloterham
-date: "2021-06-08"
+date: "2021-06-09"
 tags:
   - Generative Design
   - Python Programming

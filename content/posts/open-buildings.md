@@ -10,7 +10,7 @@ keywords:
   - Generative floor planning
   - Participatory Design 
   - Open Building Configurator
-cover: ../Images/Abstract_Cover.png
+cover: https://www.ana.nl/wp-content/uploads/2018/08/19001-12.jpg
 description: Platform for developing Architectural configurations using generative design methodologies.
 showFullContent: false
 ---
