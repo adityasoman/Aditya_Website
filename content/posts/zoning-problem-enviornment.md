@@ -122,18 +122,18 @@ The facade closeness lattice determines the distance of the voxels in an lattice
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Distance_from_Roof.png" >}}
 
-** Distance from the Roof Lattice**
+**Distance from the Roof Lattice**
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Distance_from_East_Facade.png" >}}
 
-** Distance from the East facadeLattice**
+**Distance from the East facadeLattice**
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Distance_from_South_Facade.png" >}}
 
-** Distance from the South Facade Lattice**
+**Distance from the South Facade Lattice**
 
 
-The binder link to the code for generating distance based lattices  [![Binder](https://mybinder.org/badge_logo.svg)
+The binder link to the code for generating distance based lattices  ![Binder](https://mybinder.org/badge_logo.svg)
 
 
 # Mesh Intersection based simulations
@@ -172,19 +172,19 @@ Sun_Access_Lattice = % of hits for all the rays on each voxel position
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Vertical_sky_component.png" >}}
 
-** Vertical Sky Component diagram [image source](https://www.spacemakerai.com/blog/daylight-analysis-in-the-design-process)**
+**Vertical Sky Component diagram [image source](https://www.spacemakerai.com/blog/daylight-analysis-in-the-design-process)**
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Sun_sources.png" >}}
 
-** Sources of Sun**
+**Sources of Sun**
 
 The library [Ladybug tools](https://www.ladybug.tools/) was used to generate the sun positions based on the location for the particular site.These locations were used to create sun vectors from which rays were shot towards the centroids of the voxels. The intersection with the context was checked using the library [trimesh](https://trimsh.org/trimesh.html) and the percentage of non-intersected rays was calculated which is the vertical sky component.
 
 {{< image src="https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Solar_lattice.png" >}}
 
-** Sun Access Lattice**
+**Sun Access Lattice**
 
-The binder link to the code for generating solar access lattice  [![Binder](https://mybinder.org/badge_logo.svg)
+The binder link to the code for generating solar access lattice  ![Binder](https://mybinder.org/badge_logo.svg)
 
 ## Visibility lattice
 
@@ -194,10 +194,10 @@ The characteristics of building locations, building height arrangements, and oth
 
 The approach taken to calculate the visibility is similar to the sun access lattice where percentage of intersection is calculated to determine the visibility to a point of interest. For the particular case at Buiksloterham two visibility lattices are generated one which calculates the visibility towards the IJ and the other one calculates the visibility from the road.
 
-{{< image src="https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Visibility_to_IJ.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Visibility_to_IJ.png" >}}
 
-** Visibility to the IJ Lattice**
+**Visibility to the IJ Lattice**
 
-{{< image src="https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Visibility_to_Road.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Visibility_to_Road.png" >}}
 
-** Visibiity to the Road lattice**
+**Visibiity to the Road lattice**
