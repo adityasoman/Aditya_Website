@@ -24,7 +24,8 @@ To assign Zones in a massing model which will achieve the maximum performance va
 # Multi-Agent system
 
 In the multi-agent system designed to solve the Zoning problem there are three main elements.
-`1.Environment Lattices: `The environment lattices are developed by performing various environmental simulations on the discretised massing model or the voxel grid generated at the last stage of the massing problem.
+`1.Environment Lattices: `The [environment lattices](/posts/zoning-problem-enviornment) are developed by performing various environmental simulations on the discretised massing model or the voxel grid generated at the last stage of the massing problem.
 
-`2.Agent Performance criteria:` Performance criteria are the lattices which are generated as a result of decision making with respect to the importance and need of the selected simulation matrices for the agent.
-`3.Agent Behaviours:` Agent behaviours are the actions which the agents can perform to achieve their goals on the performance criteria lattices.
+`2.Agent Performance criteria:` [Performance criteria](/posts/zoning-problem-MCDA) are the lattices which are generated as a result of decision making with respect to the importance and need of the selected simulation matrices for the agent.
+
+`3.Agent Behaviours:` [Agent behaviours](/posts/zoning-problem-Agent-behaviours) are the actions which the agents can perform to achieve their goals on the performance criteria lattices.
