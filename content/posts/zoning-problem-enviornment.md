@@ -126,7 +126,7 @@ The facade closeness lattice determines the distance of the voxels in an lattice
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Distance_from_East_Facade.png" >}}
 
-**Distance from the East facadeLattice**
+**Distance from the East facade Lattice**
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Distance_from_South_Facade.png" >}}
 
