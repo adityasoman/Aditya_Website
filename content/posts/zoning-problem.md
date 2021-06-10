@@ -2,11 +2,12 @@
 title: 02 Zoning Problem
 date: "2021-06-1"
 tags:
-  - Architecture
-  - Zoning
+  - 3D Layout problem
+  - Zoning problem
 keywords:
   - architecture
   - computation
+cover: ../Images/Zoning_problem_Cover.png
 description: Designating the appropriate locations for the various functions in the space program clubbed under particular zones
 showFullContent: false
 ---
@@ -27,7 +28,3 @@ In the multi-agent system designed to solve the Zoning problem there are three m
 
 `2.Agent Performance criteria:` Performance criteria are the lattices which are generated as a result of decision making with respect to the importance and need of the selected simulation matrices for the agent.
 `3.Agent Behaviours:` Agent behaviours are the actions which the agents can perform to achieve their goals on the performance criteria lattices.
-
-~~~~
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adityasoman/GEN-ARCH_Binder/a96f583c4cbf7c3058c9708c0849c99f37e1c718?filepath=02.Zoning_problem%2FAgent_behaviours%2FSchematic_design_multiagent_behaviours_oop.ipynb)
