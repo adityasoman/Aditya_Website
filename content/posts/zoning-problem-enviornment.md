@@ -110,7 +110,7 @@ Quiteness_lattice =tg.to_lattice(Quiteness_lattice_np, Quiteness_lattice_np.shap
 
 ```
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Voxelised_Base.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Quiteness_lattice.png" >}}
 
 ## Closeness to the Facades Lattices
 
