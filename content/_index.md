@@ -5,4 +5,5 @@ support structures. The project was my Msc. thesis project done at the [Genesis]
 
 {{< youtube id="emaIgen5row" autoplay="true" >}}
 
+
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/TU_Delft_Logo.png" >}}

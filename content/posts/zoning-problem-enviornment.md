@@ -171,13 +171,13 @@ Sun_Access_Lattice = % of hits for all the rays on each voxel position
 
 **Vertical Sky Component diagram [image source](https://www.spacemakerai.com/blog/daylight-analysis-in-the-design-process)**
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Sun_sources.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Sun_sources.PNG" >}}
 
 **Sources of Sun**
 
 The library [Ladybug tools](https://www.ladybug.tools/) was used to generate the sun positions based on the location for the particular site.These locations were used to create sun vectors from which rays were shot towards the centroids of the voxels. The intersection with the context was checked using the library [trimesh](https://trimsh.org/trimesh.html) and the percentage of non-intersected rays was calculated which is the vertical sky component.
 
-{{< image src="https://github.com/adityasoman/Aditya_Website/blob/main/content/Images/Solar_lattice.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Solar_lattice.png" >}}
 
 **Sun Access Lattice**
 

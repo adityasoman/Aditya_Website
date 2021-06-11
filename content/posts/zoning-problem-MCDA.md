@@ -27,4 +27,4 @@ The binder link to the code for generating Desirability lattice  ![Binder](https
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Sun_sources.png" >}}
 
-**Sources of Sun
+**Sources of Sun**
