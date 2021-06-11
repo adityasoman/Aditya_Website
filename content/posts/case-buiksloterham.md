@@ -10,6 +10,7 @@ keywords:
   - Generative floor planning
   - Participatory Design 
   - Open Building Configurator
+cover: ../Images/Site_diagram.png
 description: Platform for developing Architectural configurations using generative design methodologies.
 showFullContent: false
 ---

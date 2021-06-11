@@ -7,6 +7,7 @@ tags:
 keywords:
   - architecture
   - computation
+cover: ../Images/Unit_assignment_cover.gif
 description: Massing problem solution which involves finding the appropriate volumetric design of the building as the base for futher configurational resolution.
 showFullContent: false
 ---
