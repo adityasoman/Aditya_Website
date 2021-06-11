@@ -109,7 +109,7 @@ In this behaviour the primary stencil used to find the neighbours is the 8 neigh
 In this behaviour the primary stencil used to find the neighbours can be 4 or 8 neighbourhood one. The maximum valued neighbour is picked and no boost is given in the values for neighbours of neighbours. This leads the agent to purely follow the values of the environment lattice as the basis for occupancy. This behavior has its advantages when it comes to achieving the maximum valued voxels for a function due to its singular nature in selection but it can also lead to a haphazard growth with many islands in its graph structure and with holes in between.
 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax_2d.gif" >}}
 
 **2D random growth behaviour**
 
