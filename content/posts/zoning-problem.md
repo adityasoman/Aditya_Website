@@ -7,7 +7,7 @@ tags:
 keywords:
   - architecture
   - computation
-cover: ../Images/Zoning_problem_Cover.png
+cover: ../Images/zoning/Zoning_cover.gif
 description: Designating the appropriate locations for the various functions in the space program clubbed under particular zones
 showFullContent: false
 ---

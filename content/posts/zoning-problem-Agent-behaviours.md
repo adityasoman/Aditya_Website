@@ -11,7 +11,7 @@ keywords:
   - Artificial Intelligence
   - Agent based Modelling
 
-cover: ../Images/zoning/Rectangular.gif
+cover: ../Images/zoning/Agent_Behaviours.gif
 description: The article explains the logic behind the Agent behaviours in the multi-agent system designed for the zoning problem. 
 showFullContent: false
 ---
