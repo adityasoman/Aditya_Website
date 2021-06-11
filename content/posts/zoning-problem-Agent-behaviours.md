@@ -50,7 +50,7 @@ The other stencils developed are derived from these two main stencils. The four 
 
 **Moore Neighbourhood stencil (26 neighbourhood)**
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately%20Owned%20Housing.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
 
 **Von Neumann Neighbourhood Stencil (6neighbourhood)**
 
