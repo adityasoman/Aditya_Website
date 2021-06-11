@@ -25,6 +25,10 @@ In this stage also the TOPSIS method as described in [MCDA](/posts/MCDA) is used
 
 The binder link to the code for generating Desirability lattice  ![Binder](https://mybinder.org/badge_logo.svg)
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Sun_sources.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately%20Owned%20Housing.png" >}}
 
-**Sources of Sun**
+**Privately Owned Housing Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately_owned_Weights.png" >}}
+
+**Privately Owned Housing MCDA weights**
