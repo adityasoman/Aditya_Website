@@ -11,7 +11,7 @@ keywords:
   - Multi criteira decision analysis
 
 
-cover: ../Images/Quiteness_lattice.png
+cover: ../Images/zoning/Parking.png
 description: The article explains the simplified enviornmetal simulations done for generating a base for decision making. 
 showFullContent: false
 ---
