@@ -11,7 +11,7 @@ keywords:
   - Artificial Intelligence
   - Agent based Modelling
 
-cover: ../Images/zoning/Agent_behaviours_cover.png
+cover: ../Images/zoning/Rectangular.gif
 description: The article explains the logic behind the Agent behaviours in the multi-agent system designed for the zoning problem. 
 showFullContent: false
 ---
@@ -34,23 +34,11 @@ In the project several agent behaviours were developed. They can be classified i
 
 In order to create a boundary for scanning the neighbourhood around a voxel several stencils were defined.The function stencil is available in the library Topogenesis where by default there can be two types of neighbourhoods. The first one is the von neumann neighbourhood containing 6 neighbouring voxels and the second is the moore neighbourhood containing 26 neighbouring voxels.The library also contains function to make the center as unoccupied for the stencil.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately%20Owned%20Housing.png" >}}
-
-**Moore Neighbourhood stencil (26 neighbourhood)**
-
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately%20Owned%20Housing.png" >}}
-
-**Von Neumann Neighbourhood Stencil (6neighbourhood)**
-
 The other stencils developed are derived from these two main stencils. The four neighbourhood and the eight neighbourhood stencil are especially programmed for two dimensional agent behaviours where the available neighbours on only a particular axis are considered.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately%20Owned%20Housing.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Stencils.png" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
-
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
-
-**Von Neumann Neighbourhood Stencil (6neighbourhood)**
+**Stencils developed for the agent behaviours**
 
 The full floor lattice and the full lattice are considered for searching the whole search space in two dimensions or three dimensions.The full floor lattice considers the maximum extents of the horizontal or vertical slice and the full lattice considers the complete 3d lattice.
 
@@ -103,17 +91,17 @@ new_origin = selected_voxel
 
 In this behaviour the primary stencil used to find the neighbours is the 4 neighbourhood one. After the values of the neighbours are retrieved from the environment lattice the maximum valued neighbour is picked for the next iteration. The values for neighbours of neighbours get a boost in this type of behaviour hence the occupancy pattern for the agent is in a rectangular manner. If the behaviour reaches a point where no neighbours are available for occupancy then the search space is gradually increased to 8 neighbourhood area and finally to the full floor lattice.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Rectangular.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**2D Rectangular growth behaviour**
 
 ## 2D Circular growth behaviour
 
 In this behaviour the primary stencil used to find the neighbours is the 8 neighbourhood one. The rest of the nature of the code is similar to the rectangular one. The main reason for this circular growth is due to the combination of selection of the 8 neighbourhood search space from the first instance and the boosting of values for the voxels whose neighbours have been occupied.This type of growth patterns where the neighbours of neighbours are given a preference ensures the topological nature of the spaces where characteristics like having a single island and no holes in the structure are maintained.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Circular.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**2D Circular growth behaviour**
 
 
 ## 2D Random growth behaviour
@@ -123,7 +111,7 @@ In this behaviour the primary stencil used to find the neighbours can be 4 or 8 
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**2D random growth behaviour**
 
 
 ## 3D Spherical growth behaviour
@@ -131,9 +119,9 @@ In this behaviour the primary stencil used to find the neighbours can be 4 or 8 
 In this behaviour the primary stencil used to find the neighbours is the 26 neighbourhood one. This allows for selection in three dimensions. The neighbours for each agent position are stored in a list which is referred in every iteration to check for neighbours of neighbours. In this behaviour a boost is given based on the number of adjacent neighbours to a voxel under consideration. This boost creates a behaviour which forms a spherical pattern around the agent origin picking the best possible values in the environment field with the added boost based on neighbourhood occupancy condition.
 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Spherical.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**3D Spherical growth behaviour**
 
 
 
@@ -144,9 +132,9 @@ In this behaviour the primary stencil used to find the neighbours is the 6 neigh
 The chances of this behaviour running into conditions where there are zero neighbours is higher since it only considers vertically and horizontally connected neighbours and not the diagonal ones, hence the secondary stencil in this case is the  Moore neighbourhood one and finally the tertiary one being the full lattice one so that the agent has the chance to move away from the no neighbour position and restart at a different location.This boost along with the stencils creates a behaviour which forms a cuboidal pattern around the agent origin picking the best possible values in the environment field with the added boost based on neighbourhood occupancy condition.
 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Cuboid.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**3D Cuboidal growth behaviour**
 
 
 
@@ -157,7 +145,7 @@ The 3d random growth behavior is similar to the 2d random growth behavior one bu
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**3D random growth behaviour**
 
 
 ## Attraction/Repulsion Behaviour
@@ -173,6 +161,6 @@ Then the points of interest or voxels of interest are choosen from the grid and 
 Once the distance matrices are generated for both the points of interest they are used as environment lattices for the agent based simulation for the agents to grow or move towards each other depending on the use case
 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Attraction.gif" >}}
 
-**Moore Neighbourhood stencil (26 neighbourhood)**
+**Attraction/Repulsion Behaviour**
