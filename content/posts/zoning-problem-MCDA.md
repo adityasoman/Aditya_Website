@@ -32,3 +32,55 @@ The binder link to the code for generating Desirability lattice  ![Binder](https
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Privately_owned_Weights.png" >}}
 
 **Privately Owned Housing MCDA weights**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Social%20Sector%20Rental%20Housing.png" >}}
+
+**Social Sector Rental Housing Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Social_Sector_rental_weights.png" >}}
+
+**Social Sector Rental Housing MCDA weights**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Free%20Sector%20Rental%20Housing.png" >}}
+
+**Free Sector Rental Housing Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Free_Sector_rental_weights.png" >}}
+
+**Free Sector Rental Housing MCDA weights**
+
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Offices.png" >}}
+
+**Offices Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Offices_weights.png" >}}
+
+**Offices MCDA weights**
+
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Restaurants%20and%20Cafe.png" >}}
+
+**Restaurants and Cafes Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Restaurants_Weights.png" >}}
+
+**Restaurants and Cafes MCDA weights**
+
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Parking.png" >}}
+
+**Parking Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/parking_weights.png" >}}
+
+**Parking MCDA weights**
+
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Retail%20Stores.png" >}}
+
+**Retail Desirability Lattice**
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Retail_weights.png" >}}
+
+**Retail MCDA weights**
