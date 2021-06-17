@@ -23,14 +23,22 @@ The projects based on the `Open building` concept are considered as part of case
 The Molenvilet project in the city of Papendrecht in the Netherlands designed by Frans van der Werf is a classical example of the open building concept.The buildings are designed as a standard set of parallel columns and standard floors and roofs consisting of three floors and an attic. The buildings have been formed along four courtyards and are kept as empty shells with only the structure.
 The land parcellation and the number of units were done in consultation with the housing corporation.
 
-{{< image src="https://images.squarespace-cdn.com/content/v1/5aec971696d455c0ddbf67e5/1600808209138-6BRFSOUSELXN3688E443/ke17ZwdGBToddI8pDm48kM4WDiwlSc-5wgjicmxcoZ1Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxktPsh239RJgLSbPV9uD0IIdJRgoaMrktNndh0rvXtfVrt3ydmL_lzncV861-wzkg/image-asset.png?format=750w" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/molenvilet_project_photo.PNG" >}}
 
-The [Molenvilet](https://councilonopenbuilding.org/molenvilet) Open building project at Papendrecht by F.J. van der Werf Architects
+The [Molenvilet](http://www.vdwerf.nl/molenvliet.html) Open building project at Papendrecht by F.J. van der Werf Architects
 
-Once the constructions of the structure of the building started the meetings between the future residents and the infill contractor were scheduled. An empty copy of the building was kept for the discussions with the users and accompanying facade frames were added. In the first meeting the functional requirements and the required spaces for each family member with respect to their age, hobbies and preferences were discussed. After two weeks based on the first meeting drawings and details were made which where finalized with the users.In the second meeting the layout of the facade was also discussed and finalized based on the light and ventilation requirements of the users and they were also given a choice to choose the colours of the facade elements from a set of 8 different colours chosen by the architect.The resulting project became a classical example of mass customization based on user preferences.
+Once the constructions of the structure of the building started the meetings between the future residents and the infill contractor were scheduled. An empty copy of the building was kept for the discussions with the users and accompanying facade frames were added. In the first meeting the functional requirements and the required spaces for each family member with respect to their age, hobbies and preferences were discussed.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/First_session_molenvilet_users.png" >}}
+First discussion session of the architect with the users [Image source](http://www.vdwerf.nl/molenvliet.html)
+
+After two weeks based on the first meeting drawings and details were made which where finalized with the users.In the second meeting the layout of the facade was also discussed and finalized based on the light and ventilation requirements of the users and they were also given a choice to choose the colours of the facade elements from a set of 8 different colours chosen by the architect.The resulting project became a classical example of mass customization based on user preferences.
 
 {{< image src="https://images.squarespace-cdn.com/content/v1/5aec971696d455c0ddbf67e5/1600808782717-LE7497J0PLZ2QYES0OBC/ke17ZwdGBToddI8pDm48kK65AOPnQ6J_aPxKjnaW4T4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcj_PG2DGTSx34T8t7XbVTAGUshd9BbgM3Pdkn0fsd4B_8Ju0AHIU47zSzieSH0hXF/Capture1.PNG?format=750w" >}}
-The [Shell](https://councilonopenbuilding.org/molenvilet) Open building project at Houthaven by Marc Kohler Architects
+The [Shell](https://councilonopenbuilding.org/molenvilet) construction of the project.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/molenvilet%20facade.PNG" >}}
+Facade options sketch from the architect [Image source](http://www.vdwerf.nl/molenvliet.html)
 
 # Superlofts project
 
