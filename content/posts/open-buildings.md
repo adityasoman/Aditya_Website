@@ -36,29 +36,34 @@ The [Shell](https://councilonopenbuilding.org/molenvilet) Open building project 
 
 Superlofts is a flexible design and development framework and is developed by Marc Koehler Architects. Superlofts offers its members the freedom to customise or design and self-build their homes from scratch incorporating any hybrid function, and co-create shared spaces to build a global co-living community [].
 
-The idea of super lofts is to adapt a open and circular framework where the lifecycles of the structure and the infill layers are independant of each other like the facades can be changed/modified after every 25 years, the HVAC installations after 10 years and the interiors after every 5.This can lead to less material wastage and efficient use of resources.
+{{< image src="https://marckoehler.com/wp-content/uploads/marc-koehler-architects-superlofts-houthavens-amsterdam-1-1.jpg" >}}
+Project image of Superlofts project at Houthavens [Image source](https://marckoehler.com/project/superlofts-houthavens/)
 
-The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+The idea of super lofts is to adapt a open and circular framework where the lifecycles of the structure and the infill layers are independant of each other like the facades can be changed/modified after every 25 years, the HVAC installations after 10 years and the interiors after every 5.This can lead to less material wastage and efficient use of resources.
+{{< image src="https://marckoehler.com/wp-content/uploads/marc-koehler-architects-superlofts-houthavens-axos.gif" >}}
+Configuration possibilities in the unit [Image source](https://marckoehler.com/project/superlofts-houthavens/)
 
 The base building comprises a prefabricated modular concrete framework composed of five to six meter high modules which forms the structure part of the building.The infill elements can be developed as per the needs of the owners requirements. Pre-fabricated walls and floor form one unit which are then stacked on top of one another.The project also offers it s users to grow their spaces gradually so they don't have to invest all their money at the same time and also there is a possibility of making the infill of the lofts independently of the main contractor.
 
-The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+{{< image src="https://marckoehler.com/wp-content/uploads/marc-koehler-architects-superlofts-houthavens-diagram-1.jpg" >}}
+Adaptable facade configuration of the facades [Image source](https://marckoehler.com/project/superlofts-houthavens/)
 
 The facade system is a prefabricated aluminum modular building system that is easy to adapt to the specific demands of each user/owner. It has the intention of energy saving, natural ventilation and sun shading systems and rainwater drainage.
 There are several configurator tools which are under development for these projects as well like the site planning tool the house customization tool for the infill etc.which show close resemblance to the thesis project and also offers a validation to justify the need of such a tool.
 
-The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+{{< image src="https://marckoehler.com/wp-content/uploads/marc-koehler-architects-superlofts-houthavens-diagram-3.jpg" >}}
+Diagram indicating all the possible elements that can be customised in the configuration [Image source](https://marckoehler.com/project/superlofts-houthavens/)
 
 # SketchBlock project
 
 The Sketchblock project is also an example of the open residential building project designed by ANA architects for the 4Winden foundation members on Westlandgracht. In Sketchblock the position size and the layout of the dwellings can be customised for each residents needs. There is also a possibility of combining houses which are next to each other or above one another. The equipment of the home, outdoor areas and communal facilities have also been further developed by the residents.
 
-The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+{{< image src="https://images.adsttc.com/media/images/6026/76b2/f91c/8176/4b00/01a1/slideshow/The_Sketch_Block_05.jpg?1613133468" >}}
+The [Sketchblock](https://www.archdaily.com/956523/the-sketchblock-ana-architecten?ad_medium=gallery) Open building project at Amsterdam by ANA architecten.
 
 The process involved in this project was similar to the molenvilet project [\ref{Case study molenvilet project}]. The meetings between the residents and the architects were arranged to design the layout of the apartments and finalize the detailing of the projects. Each house layout was custom designed by the architects.This in evidently lead to the creation of a catalogue of plans for each house. The architect had also clearly defined the rules for customization beforehand with the residents so that the design character and integrity of the building is maintained.
 
-The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+{{< image src="https://images.adsttc.com/media/images/601d/9067/f91c/8166/d300/043d/slideshow/Het_Schetsblok-dwellings.jpg?1612550226" >}}
+All the possible floor plan options were designed by the architects for the project [Image source](https://www.archdaily.com/956523/the-sketchblock-ana-architecten?ad_medium=gallery)
 
 The facade of the buildings was designed before so the layout of the apartments had to match the layout of the facade which was an added complexity in the project.The choice of having a balcony was left to the users but the size of it was fixed by the architect to maintain the visual appearance of the building.
-
-The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
