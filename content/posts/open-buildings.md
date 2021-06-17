@@ -2,34 +2,63 @@
 title: Open Building Movement
 date: "2021-06-09"
 tags:
-  - Generative Design
-  - Python Programming
+  - Architecture Design
+  - Open Bulidings
 keywords:
   - 3D Layout Problem
-  - Agent based modelling
-  - Generative floor planning
-  - Participatory Design 
+  - Mass Customization
+  - Participatory Design
   - Open Building Configurator
 cover: https://www.ana.nl/wp-content/uploads/2018/08/19001-12.jpg
-description: Platform for developing Architectural configurations using generative design methodologies.
+description: This article shows a few case studies about the Open building concept.
 showFullContent: false
 ---
+
 # Introduction
 
-The Constructing industry around the world is growing exponentially. In the Netherlands itself there is a need of constructing 1 million affordable new homes by 2030. Such a massive demand for new buildings has given rise to a need for a solution for `mass customization` of architectural configurations. Simple repetition or a badly configured building is not ideal and can lead to a lot of social and environmental problems.
+The projects based on the `Open building` concept are considered as part of case studies since the approach inherently is a participatory one and is in alignment with the intention of the project. Open buildings make a distinction between support and infill. The support represent the most permanent parts of the building like the structure and can be seen as a bookcase. The infill represents the adaptable part of the building or in other words the books.
 
-Generative Design can offer a digital solution for this mass customization problem for generating Architectural configurations. It can utilize the power of `Artificial intelligence` in design to generate a system where designers can create custom solutions rapidly.
+# Molenvilet Project
 
-The second part of the customization problem is the user participation in determining the customization goals. More often than not the end users of the built space do not get an opinion in the configuration process and this leads to a undemocratic design solutions producing urban inequality.
+The Molenvilet project in the city of Papendrecht in the Netherlands designed by Frans van der Werf is a classical example of the open building concept.The buildings are designed as a standard set of parallel columns and standard floors and roofs consisting of three floors and an attic. The buildings have been formed along four courtyards and are kept as empty shells with only the structure.
+The land parcellation and the number of units were done in consultation with the housing corporation.
 
-In this project a comprehensive digital solution by means of a digital platform is provided to in an attempt to solve the `3D layout problem` in a participatory manner. The platform built in the thesis is intended for designing Open buildings a concept first proposed by the Dutch Architect John Habraken for participatory design.The concept of Open buildings calls for separation of the structure and the infill layer making the buildings open for modification and customization.
+{{< image src="https://images.squarespace-cdn.com/content/v1/5aec971696d455c0ddbf67e5/1600808209138-6BRFSOUSELXN3688E443/ke17ZwdGBToddI8pDm48kM4WDiwlSc-5wgjicmxcoZ1Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxktPsh239RJgLSbPV9uD0IIdJRgoaMrktNndh0rvXtfVrt3ydmL_lzncV861-wzkg/image-asset.png?format=750w" >}}
 
-The 3D-Layout configuration problem in its full sophistication is a classical example of a wicked problem. So in the thesis the problem is methodically broken down into a group of nested smaller problems with local goals to achieve the global spatial planing goals and various computational methods are tested for solving the problem.
+The [Molenvilet](https://councilonopenbuilding.org/molenvilet) Open building project at Papendrecht by F.J. van der Werf Architects
 
-The nature of the smaller problems is often iterative hence a robust decision support system is also designed for stakeholder participation and control over the problem solving method.Thecomputational methods used in the thesis are inspired from various other disciplines like Computer science, Industrial engineering , Operations research etc. where they are used to solve similar problems in their respective domains. Techniques like `Multi-agent systems, Multi-criteria decision analysis`,Techniques for solving the clustering and `packing problems` in operations research are explored to solve the various nested smaller problems in the 3D-Layout problem.
+Once the constructions of the structure of the building started the meetings between the future residents and the infill contractor were scheduled. An empty copy of the building was kept for the discussions with the users and accompanying facade frames were added. In the first meeting the functional requirements and the required spaces for each family member with respect to their age, hobbies and preferences were discussed. After two weeks based on the first meeting drawings and details were made which where finalized with the users.In the second meeting the layout of the facade was also discussed and finalized based on the light and ventilation requirements of the users and they were also given a choice to choose the colours of the facade elements from a set of 8 different colours chosen by the architect.The resulting project became a classical example of mass customization based on user preferences.
 
-Finally all the methods developed in the project are used to solve a test case for the design of a mixed used Open building consisting of Housing and Commercial spaces in the **Buiksloterham** region which is one of the first **circular neighbourhoods**  in **Amsterdam** to showcase the potential of the platform developed in the thesis.
+{{< image src="https://images.squarespace-cdn.com/content/v1/5aec971696d455c0ddbf67e5/1600808782717-LE7497J0PLZ2QYES0OBC/ke17ZwdGBToddI8pDm48kK65AOPnQ6J_aPxKjnaW4T4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcj_PG2DGTSx34T8t7XbVTAGUshd9BbgM3Pdkn0fsd4B_8Ju0AHIU47zSzieSH0hXF/Capture1.PNG?format=750w" >}}
+The [Shell](https://councilonopenbuilding.org/molenvilet) Open building project at Houthaven by Marc Kohler Architects
 
-{{< image src="https://marckoehler.com/wp-content/uploads/SP2018-Superlofts-HH-Night-1-LowRes.jpg" >}}
+# Superlofts project
+
+Superlofts is a flexible design and development framework and is developed by Marc Koehler Architects. Superlofts offers its members the freedom to customise or design and self-build their homes from scratch incorporating any hybrid function, and co-create shared spaces to build a global co-living community [].
+
+The idea of super lofts is to adapt a open and circular framework where the lifecycles of the structure and the infill layers are independant of each other like the facades can be changed/modified after every 25 years, the HVAC installations after 10 years and the interiors after every 5.This can lead to less material wastage and efficient use of resources.
+
+The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+
+The base building comprises a prefabricated modular concrete framework composed of five to six meter high modules which forms the structure part of the building.The infill elements can be developed as per the needs of the owners requirements. Pre-fabricated walls and floor form one unit which are then stacked on top of one another.The project also offers it s users to grow their spaces gradually so they don't have to invest all their money at the same time and also there is a possibility of making the infill of the lofts independently of the main contractor.
+
+The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+
+The facade system is a prefabricated aluminum modular building system that is easy to adapt to the specific demands of each user/owner. It has the intention of energy saving, natural ventilation and sun shading systems and rainwater drainage.
+There are several configurator tools which are under development for these projects as well like the site planning tool the house customization tool for the infill etc.which show close resemblance to the thesis project and also offers a validation to justify the need of such a tool.
+
+The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+
+# SketchBlock project
+
+The Sketchblock project is also an example of the open residential building project designed by ANA architects for the 4Winden foundation members on Westlandgracht. In Sketchblock the position size and the layout of the dwellings can be customised for each residents needs. There is also a possibility of combining houses which are next to each other or above one another. The equipment of the home, outdoor areas and communal facilities have also been further developed by the residents.
+
+The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+
+The process involved in this project was similar to the molenvilet project [\ref{Case study molenvilet project}]. The meetings between the residents and the architects were arranged to design the layout of the apartments and finalize the detailing of the projects. Each house layout was custom designed by the architects.This in evidently lead to the creation of a catalogue of plans for each house. The architect had also clearly defined the rules for customization beforehand with the residents so that the design character and integrity of the building is maintained.
+
+The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
+
+The facade of the buildings was designed before so the layout of the apartments had to match the layout of the facade which was an added complexity in the project.The choice of having a balcony was left to the users but the size of it was fixed by the architect to maintain the visual appearance of the building.
 
 The [Superlofts](https://marckoehler.com/project/superlofts-houthavens/) Open building project at Houthaven by Marc Kohler Architects
