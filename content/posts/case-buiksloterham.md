@@ -30,7 +30,7 @@ The municipality of Amsterdam has a clear plan focused on **sustainability** and
 
 After inspecting the neighbourhood development plan for a mixed used proposal the site at `Buiksloterham and Co.` was selected due to its interesting location in the neighbourhood and due to its regular shape. A mixed use living and working buildings are planned in this part of the neighbourhood. The location faces the river banks of the IJ. According to the current plan by the municipal corporation Buiksloterham & Co will have a total of around 520 homes. The development type is varied from self-build plots and market plots (CPO) to owner-occupied apartments and rental homes. There is an attempt to integrate Living and working. Office and work spaces will be integrated with the residential spaces in the buildings. There is also a possibility of self development of houses by the owners themselves.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/Website/Space_program.jpg" >}}
+{{< image src="../Images/Google_earth.jpg" >}}
 
 # Site analysis
 The following factors can be considered while generating the design parameters for the project on the site.
@@ -43,7 +43,7 @@ The vision for the neighbourhood is a participatory one so there is a strong cha
 
 A pedestrian bridge is envisioned on the canal located on the north side connecting the Kop Grasweg a mixed used neighbourhood and the site. The location of commercial space could be driven by this connectivity.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/Website/Space_program.jpg" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Site_analysis.jpg" >}}
 
 The space program is defined based on the preliminary calculations based on the site area and the literature studies about the exixsitng proposal. The total buildable area will be dependant on the solution proposed and the space program will adapt to the solution maintaining the ratios of distribution of areas into the various functions defined in the space program 
 
