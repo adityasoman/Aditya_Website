@@ -92,31 +92,74 @@ This process is repeated for the other two type of housing units, thus concludin
 ## Steps involved in assigning the Second category of Units:
 The second category of units are the ones having closeness requirements with each other. An example of this is the zone for Offices and the restaurants and retails zones. To show the method the offices zone will be considered. The approach taken will be similar to the agent based method taken for the zoning problem with an added contraint of closeness.
 
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Zoning_problem_Diagram.jpg" >}}
+Diagram showing the office zones.
+
 `Step1:` Generating the REL-CHART: 
 The relationship chart indicating the closeness between the units in the problem needs to be established first. This will indicate the constraints for the agent orgin locations in the model further. In this approach the Total closeness rating is considered which is an aggregated value of the closeness ratings for each zones as seen in the table below. According to this Total closeness rating the agents will be deployed.
 For the Office zones there are two distinctions made between `Co-working` offices with a suffix `Common` and `Privately Owned` offices with a suffix `Private ` in the Rel-Chart below :
 
-| REl_CHART | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common | TCR |
+| REL_CHART | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common | TCR |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Open Office Area Private | nil | 4 | 3 | -1 | -1 | -1 | 4 |
-| Cafeteria and Common room | 4 | nil | 2 | -1 | -1 | 3 | 3 |
+| Cafeteria Private  | 4 | nil | 2 | -1 | -1 | 3 | 3 |
 | Meeting Rooms Private | 0 | 2 | nil | -1 | -1 | -1 | -1 |
 | Open Office Area Common | -1 | -1 | -1 | nil | 3 | 4 | 4 |
-| Meeting Rooms Common | -1 | -1 | 1 | 4 | nil | 0 | 3 |
+| Open Office Area Common | -1 | -1 | -1 | 0 | nil | 2 | -1 |
+| Cafeteria Common | -1 | -1 | 1 | 4 | 0 | nil | 3 |
+
+Where:(4)Absolutely Necessary, E:(3)Especially Important, I:(2)Important, O:(0)Ordinary closeness, U:(1)Unnecessary closeness, X:(-1)Avoid closeness
 
 `Step2:` Developing the Spatial Quality matrices for the zone: 
 In the following steps the necessary matrices for the Agent based simulations will be done as seen in the Zoning problem beginning with generating the Spatial Quality matrices or enviornment matrices in the same manner as seen in [Enviornment lattices](/posts/zoning-problem-enviornment). The additional spatial quality indicator is the closeness to the green areas done for locating the common spaces in the units. 
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Closeness_to_grren_Areas_viz.png" >}}
+Closeness to Green area lattice, where the points highlight the location of green spaces nearest to the Office zone.
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Distance_from_Roof.png" >}}
+Distance based lattices (Distance from Ground level)
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Quiteness_lattice.png" >}}
+Distance based lattices (Distance from Noise source)
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Solar_lattice_zeroed.png" >}}
+Intersection based lattices (Sun-Access Lattice)
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Visibility_to_IJ.png" >}}
-
+Intersection based lattices (Visibility_Lattice)
 
 `Step3:` Developing the Desirability matrices for the agents: 
-In the following steps the necessary matrices for the Agent based simulations will be done as seen in the Zoning problem beginning with generating the Spatial Quality matrices or enviornment matrices in the same manner as seen in [Desirability lattices](/posts/zoning-problem-MCDA). The additional spatial quality indicator is the closeness to the green areas done for locating the common spaces in the units. 
+In order to generate the desirability matrices for the agents the decision making will be done regarding the spatial qualities necessary for the various units inside the office zone similar to the step taken in the zoning problem [Desirability lattices](/posts/zoning-problem-MCDA).Once decisions are made a MCDA process will run based on the decision and a series of desitrability lattices will be produced which will act as the base for the agent simulation in the further steps. The choices done for the units can be seen in the table and images below:
+
+| Spatial Quality | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Closeness to N facade | 0 | 0 | 0 | 0 | 0 | 0 |
+|  Closeness to S facade | 0 | 0 | 0 | 0 | 0 | 0 |
+| Closeness to E facade  | 0 | 0 | 0 | 0 | 0 | 0 |
+| Closeness to W facade | 0 | 0 | 0 | 0 | 5 | 0 |
+|  Closeness to Ground | 7 | 0 | 0 | 0 | 0 | 0 |
+|  Closeness to Roof  | 0 | 0 | 8 | 0 | 8 | 0 |
+|  Closeness to Green Areas  | 0 | 8 | 0 | 0 | 0 | 8 |
+|  Quiteness Lattice  | 6 | 0 | 8 | 0 | 0 | 0 |
+|  Sun Access Lattice  | 7 | 0 | 7 | 0 | 7 | 0 |
+|  Visibility to IJ Lattice  | 0 | 4 | 7 | 0 | 7 | 4 |
+|  Visibility to Road  Lattice  | 6 | 0 | 0 | 0 | 0 | 0 |
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Meeting_Rooms_Private%20(1).png" >}}
+Desirability lattices for the Meeting Rooms Private units
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Cafeteria_and_Common_rooms_Private%20(1).png" >}}
+Desirability lattices for the Common Rooms Private units
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Open_Office_Common%20(1).png" >}}
+Desirability lattices for the Open Office Private units
+
+
+`Step4:` Run the Agent based simulations to develop the units: 
+The process ismilar to the [Sequential assignment](/posts/zoning-problem) process will be done to assign the units inside the office sones. The cuboidal occupy behaviour for the agents will be considered and the sequence orf the agents will depend on the Total closeness rating for the units as derived in step 1 of the process. 
+For spatial relations with strict closeness relations like highly desirable or avoid strict constraints will be enforced on the agent origin positions based on the size of the units that the agent is attempting to grow. 
+
+{{< youtube id="iikMRGpqEE0" autoplay="true" >}}
+
+Finally the oputput from the Unit assignment problem will be further processed in the [Unit-Layout problem](/posts/unit-layout-problem)
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Zoning_problem_to_unit_assignment_problem.png" >}}
