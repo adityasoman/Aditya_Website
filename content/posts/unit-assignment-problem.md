@@ -162,4 +162,4 @@ For spatial relations with strict closeness relations like highly desirable or a
 {{< youtube id="iikMRGpqEE0" autoplay="true" >}}
 
 Finally the oputput from the Unit assignment problem will be further processed in the [Unit-Layout problem](/posts/unit-layout-problem)
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Zoning_problem_to_unit_assignment_problem.png" >}}
+{{< https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_problem_to_Unit_Layout_Problem.png" >}}
