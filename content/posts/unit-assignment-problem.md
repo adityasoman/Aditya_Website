@@ -27,12 +27,19 @@ The units that need to be assigned for the problem case are as follows:
 | Zone | Unit | Number of Unit | Number of Voxels per unit |
 | - | :-: | :-: | :-: |
 | Privately owned housing | Large House | 60% of Zone Volume | 18 |
-| Social rental housing | 301 | 16 |
-| Free sector rental housing | 403 | 21 |
-| Restaurants and cafe | 19 | 1 |
-| Retail Stores | 73 | 4 |
-| Offices| 93 | 5 |
-| Parking| 51 | 3 |
+| Privately owned housing | Medium House | 40% of Zone Volume | 09 |
+| Social rental housing | Medium House | 75% of Zone Volume | 09 |
+| Social rental housing | Small House | 25% of Zone Volume | 04 |
+| Free sector rental housing | Large House | 60% of Zone Volume | 12 |
+| Free sector rental housing | Medium House | 40% of Zone Volume | 09 |
+| Restaurants and cafe | Restaurant | 70% of Zone Volume | 18 |
+| Restaurants and cafe | Cafe | 70% of Zone Volume | 12 |
+| Retail Stores ||  100% of Zone Volume  | 4 |
+| Offices| Open office spaces | 65% of Zone Volume | NA |
+| Offices| Meeting rooms | 15% of Zone Volume | 2 |
+| Offices| Cafeteria and common spaces | 20% of Zone Volume | NA |
+| Parking| Car Parking | 40% of Zone Volume | NA |
+| Parking| Bike Parking | 60% of Zone Volume | NA |
 
 ## Steps involved in the Unit Assignment problem:
 `Step1:` Interpolation of the Zoning problem output:
@@ -63,6 +70,19 @@ In the first category of units all the units under the residential function are 
 `Step1:` Generating the modules for units:
 The privately owned housing units have two categories as seen in the Large house consisting of 18 voxels and the medium house consisting of 9 voxels. The zone for the privately owned housing is split in the center by the horizontal circulation space in the previous step and is symmetrical with one side containing a maximum of 3 voxels. Considering this dimension as the extent for each unit since intermediate units are not desirable due to poor access to the sun the units for the large and the medium can have a shape of 3x6 voxels and 3x3 voxels respectively. 
 
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
+Basic Units.
 
+`Step2:` Generating the intermediate modules:
+The counting of the voxels is done in each direction for the two symmetrical sections of the zone. One dimension is the same being 3 voxels but the other dimension will keep on varying. This variation in the other dimension will lead to instances where the dimension is not divisible by three which is the minumum size of the unit (Medium house). For these specific instances intermediate scaled units need to be designed. In the shape for the privately owned housing two such intermediate unit types need to be made of sizes 4x3 voxels and 5x3 voxels respectively. 
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
+Intermediate Units.
+
+`Step3:` Assigning the modules according to the desirability matrix:
+Once all the types of units are made the assignment process starts. The Large houses are given a priority and are assigned first sequentially floor after floor starting from the top floor since the maximum values from the desirability matrix as seen in the zoning problem for the privately owned housing were at the top of the lattice. [Privately owned housing output lattice](/posts/zoning-problem-MCDA). At the end of each floor the intermediate modules are assigned if the length is not perfectly divisible by three. 
+This process is repeated for the other two type of housing units, thus concluding the unit assignment process of the first category
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
 
 ## Steps involved in assigning the Second category of Units:
