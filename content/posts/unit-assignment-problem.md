@@ -24,9 +24,9 @@ The Unit Assignment problem can be classified into two categories:
 
 The units that need to be assigned for the problem case are as follows:
 
-| Unit | Number of Unit | Number of Voxels per unit |
+| Zone | Unit | Number of Unit | Number of Voxels per unit |
 | - | :-: | :-: |
-| Privately owned housing |
+| Privately owned housing | Large House | 60% of Zone Volume | 18 |
 | Social rental housing | 301 | 16 |
 | Free sector rental housing | 403 | 21 |
 | Restaurants and cafe | 19 | 1 |
