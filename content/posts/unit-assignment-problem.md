@@ -131,19 +131,7 @@ Intersection based lattices (Visibility_Lattice)
 `Step3:` Developing the Desirability matrices for the agents: 
 In order to generate the desirability matrices for the agents the decision making will be done regarding the spatial qualities necessary for the various units inside the office zone similar to the step taken in the zoning problem [Desirability lattices](/posts/zoning-problem-MCDA).Once decisions are made a MCDA process will run based on the decision and a series of desitrability lattices will be produced which will act as the base for the agent simulation in the further steps. The choices done for the units can be seen in the table and images below:
 
-| Spatial Quality | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Closeness to N facade | 0 | 0 | 0 | 0 | 0 | 0 |
-|  Closeness to S facade | 0 | 0 | 0 | 0 | 0 | 0 |
-| Closeness to E facade  | 0 | 0 | 0 | 0 | 0 | 0 |
-| Closeness to W facade | 0 | 0 | 0 | 0 | 5 | 0 |
-|  Closeness to Ground | 7 | 0 | 0 | 0 | 0 | 0 |
-|  Closeness to Roof  | 0 | 0 | 8 | 0 | 8 | 0 |
-|  Closeness to Green Areas  | 0 | 8 | 0 | 0 | 0 | 8 |
-|  Quiteness Lattice  | 6 | 0 | 8 | 0 | 0 | 0 |
-|  Sun Access Lattice  | 7 | 0 | 7 | 0 | 7 | 0 |
-|  Visibility to IJ Lattice  | 0 | 4 | 7 | 0 | 7 | 4 |
-|  Visibility to Road  Lattice  | 6 | 0 | 0 | 0 | 0 | 0 |
+
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Meeting_Rooms_Private%20(1).png" >}}
 Desirability lattices for the Meeting Rooms Private units
