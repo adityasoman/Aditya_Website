@@ -132,7 +132,7 @@ Intersection based lattices (Visibility_Lattice)
 In order to generate the desirability matrices for the agents the decision making will be done regarding the spatial qualities necessary for the various units inside the office zone similar to the step taken in the zoning problem [Desirability lattices](/posts/zoning-problem-MCDA).Once decisions are made a MCDA process will run based on the decision and a series of desitrability lattices will be produced which will act as the base for the agent simulation in the further steps. The choices done for the units can be seen in the table and images below:
 
 | Spatial Quality | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common |
-| :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Closeness to N facade | 0 | 0 | 0 | 0 | 0 | 0 |
 |  Closeness to S facade | 0 | 0 | 0 | 0 | 0 | 0 |
 | Closeness to E facade  | 0 | 0 | 0 | 0 | 0 | 0 |
