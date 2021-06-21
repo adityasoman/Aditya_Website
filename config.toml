@@ -63,5 +63,5 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "aditya"
+      logoText = "GEN-ARCH"
       logoHomeLink = "/"
