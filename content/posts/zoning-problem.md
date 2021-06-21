@@ -117,4 +117,4 @@ One of the avenues which could be explored to generate good combinations is the 
 The final output for the zoning has a voxel dimensions of 6x6x6m which is interpolated into a finer resolution of 3x3x3m for the unit assignment problem using the components from the Scipy Library. 
 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_two_Sequential_Case.jpg" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Zoning_problem_to_unit_assignment_problem.png" >}}
