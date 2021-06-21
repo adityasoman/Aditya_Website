@@ -129,7 +129,7 @@ Intersection based lattices (Sun-Access Lattice)
 Intersection based lattices (Visibility_Lattice)
 
 `Step3:` Developing the Desirability matrices for the agents: 
-In order to generate the desirability matrices for the agents the decision making will be done regarding the spatial qualities necessary for the various units inside the office zone similar to the step taken in the zoning problem [Desirability lattices](/posts/zoning-problem-MCDA).Once decisions are made a MCDA process will run based on the decision and a series of desitrability lattices will be produced which will act as the base for the agent simulation in the further steps. The choices done for the units can be seen in the table and images below:
+In order to generate the desirability matrices for the agents the decision making will be done regarding the spatial qualities necessary for the various units inside the office zone similar to the step taken in the zoning problem [Desirability lattices](/posts/zoning-problem-MCDA).Once decisions are made a MCDA process will run based on the decision and a series of desitrability lattices will be produced which will act as the base for the agent simulation in the further steps. The spatial quality choices (Weights 0-10) done for the units can be seen in the table and images below:
 
 | Spatial Quality | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
