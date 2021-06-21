@@ -40,7 +40,7 @@ The results generated for the zoning problem using the multi-agent system descri
 There were two approaches considered for growing the decision of the actors using the multi-agent system. The first one is the Linear assignment approach. 
 
 # Linear Assignment approach:
-The first approach towards this problem is to deal with the zoning problem as an linear assignment problem researched extensively in operations research. The problem was first described by [ ] as a relatively simple problem in the allocation of indivisible resources is that of matching two sets of an equal number n of objects, by making up pairs of objects consisting of one object from each set. Objects belonging to the same set are similar in kind but not identical. For each of the n\textsuperscript possible pairs a score or value is given. The problem is to find a matching (or assignment to each other) of objects for which the sum of the scores of pairs matched is as high as possible.
+The first approach towards this problem is to deal with the zoning problem as an linear assignment problem researched extensively in operations research. The problem was first described by [Koopman](https://www.jstor.org/stable/1907742) as a relatively simple problem in the allocation of indivisible resources is that of matching two sets of an equal number n of objects, by making up pairs of objects consisting of one object from each set. Objects belonging to the same set are similar in kind but not identical. For each of the n<sup>2</sup> possible pairs a score or value is given. The problem is to find a matching (or assignment to each other) of objects for which the sum of the scores of pairs matched is as high as possible.
 
 Considering the problem of zoning the objective of this same problem can be reinterpreted as maximising the summation of all the values of voxels in a cluster (function) for all clusters.
 
@@ -49,7 +49,7 @@ Considering the problem of zoning the objective of this same problem can be rein
 The smallest zone in the whole program is the Restaurant and Cafe Zone consisting of 19 voxels that need to be occupied. So Considering this as the benchmark for division of the occupancy lattice all the available cells were divided into clusters of 20 cells to find the positions for 71 possible origin points for the agents.The number of agents for each of the zone was also divided based on this smallest occupancy size of the zone as seen in the table below:
 
 | Zones | Number of Voxels | Number of Agents |
-| - | :- | :-: |
+| - | :-: | :-: |
 | Privately owned housing | 451 | 21 |
 | Social rental housing | 301 | 16 |
 | Free sector rental housing | 403 | 21 |
@@ -71,7 +71,7 @@ The Benefit matrices for the agents are used in the MIP solver with SCIP backend
 `Step4:` Running the ABM Simulation according to the Permutation matrix
 The permutation matrix is used to run the agent based simulation for all the agents and the total benefit of the whole simulation is calculated by aggregating the occupied values from the desirability matrices of all the agents to calculate the total benefit.
 
-{{< youtube id="emaIgen5row" autoplay="true" >}}
+{{< youtube id="ny96xxiPR_g" autoplay="true" >}}
 
 # Sequential Assignment approach:
 The first approach towards this problem is to deal with the zoning problem as an linear assignment problem researched extensively in operations research. The problem was first described by [ ] as a relatively simple problem in the allocation of indivisible resources is that of matching two sets of an equal number n of objects, by making up pairs of objects consisting of one object from each set. Objects belonging to the same set are similar in kind but not identical. For each of the n\textsuperscript possible pairs a score or value is given. The problem is to find a matching (or assignment to each other) of objects for which the sum of the scores of pairs matched is as high as possible.
