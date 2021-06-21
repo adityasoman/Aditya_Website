@@ -44,7 +44,7 @@ The first approach towards this problem is to deal with the zoning problem as an
 
 Considering the problem of zoning the objective of this same problem can be reinterpreted as maximising the summation of all the values of voxels in a cluster (function) for all clusters.
 
-## Steps involved in the Linear Assignment approach 
+## Steps involved in the Linear Assignment approach:
 `Step1:` Determine the possible agent origin locations
 The smallest zone in the whole program is the Restaurant and Cafe Zone consisting of 19 voxels that need to be occupied. So Considering this as the benchmark for division of the occupancy lattice all the available cells were divided into clusters of 20 cells to find the positions for 71 possible origin points for the agents.The number of agents for each of the zone was also divided based on this smallest occupancy size of the zone as seen in the table below:
 
@@ -74,13 +74,11 @@ The permutation matrix is used to run the agent based simulation for all the age
 {{< youtube id="ny96xxiPR_g" autoplay="true" >}}
 
 # Sequential Assignment approach:
-The second approach towards this problem is the Sequential assignment approach. In this approach zones are configured one after the other sequentially till all zones are configured. This approach ensures that the agent which is growing is not affected by the griwth of other agents. In this approach the zones having the maximum impact on the overall project or the biggest zones are configured first. 
-
 In the sequential assignment approach the approach is more towards replicating the manual process with the intelligence of multi criteria assignment and form evolution offered by the agent based model.In this approach the functions in the space program are assigned sequentially from the biggest function to the smallest function. This approach gives priority according to the size assuming that the impact of the biggest function is going to be the most on the output of the benefit calculations of the zoning.
 
 The similarity of the approach to the manual process can be attributed to the fact that in the manual process multiple zones are never assigned its always a sequential process with a explicit or an assumed priority order of the various zones. The main benefit of this approach is the topological quality of the zones created in terms of their shape and island formation. Since the growth of the agents is not affected by the growth of their surrounding agents the agents can grow in the exact way that they are programmed in response to the environment lattice values which they are fed with.The interesting thing to observe in this approach would be the final score of the simulation in comparison to the Linear assignment approach. In this type of an approach the lower the function or the agent is in the priority list the more it has to compromise in the quality of voxels which it can occupy. In that sense this approach does not give equal access to all the functions.
 
-## Steps involved in the Sequential Assignment approach 
+## Steps involved in the Sequential Assignment approach:
 `Step1:` Determine the possible agent origin locations.
 The first step in the sequential assignment procedure was to parse the base lattice and generate a good sample size for the agent origins. Out of the 1359 available voxels a voxel after every 10 voxels was considered in the list for possible agent origins. This kept the resolution for the simulation higher the intention being to generate more accurate results.
 
@@ -93,14 +91,30 @@ This step is the same as the linear assignment approach second step where ABM si
 `Step4:`Sequential Assignment Procedure.
 The sequential assignment procedure is started at this step beginning with the parking and the Privately owned housing zones. The agent behaviour for parking was a 2d rectangular growth one and for the privately owned housing was 3d cuboidal one considering the nature of the spaces.The agents are initialized in Building one and Building four together to make the zone distributed over the two buildings.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
 First step in assignment of Zones with parking in Blue and Privately owned housing in pink.
 
 Once all the voxels for the agents are occupied then the availability of the remaining voxels are scanned for the best possible origin location for the next agent by comparing it with the list generated from step one of the process.Once a suitable origin is found the simulation is run again . This process continues till all the agents have occupied the desired number of voxels.
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_two_Sequential_Case.jpg" >}}
 Second step in assignment of Zones with Social rental housing zone displayed in Green
 
 `Step5:`Generating the Total Benefit of the simulation.
 Once all the agents have occupied the desired number of voxels the desirability values for each one of them are extracted from their respective desirability lattices. The aggregated value for each of the lattice is added to generate the total benefit of the assignment process. 
 
 {{< youtube id="iikMRGpqEE0" autoplay="true" >}}
+
+# Comparison between the approaches:
+The Linear assignment approach outperformed the Sequential assignment one substantially. The Linear Assignment approach output obtained the score of `7.18/10` and the output obtained from the Sequential assignment approach scored `4.35/10`. This can be attributed to the uniform divisions of the agent occupy goals for the linear assignment one where the influence of one agent growing over the other is reduced substantially and the MIP solver is able to predict accurate results.The sequential assignment method does not give equal access to all the agents to achieve their respective goals with preferences given to the agents assigned first. There are a few drawbacks with the linear assignment process as well.The main drawback of the linear assignment method is the formation of scattered unconnected smaller zones in the lattice. Since the only aim in this approach is to maximise the benefit the topology of the zones formed is not really considered. Isolated small clusters can be seen at a lot of places in the output which need to be consolidated.
+
+# Conclusion and Limitations for the Zoning Problem:
+The zoning problem is complex in its nature and the selection of the appropriate method is crucial in generating a solution for it. As a first step the nature of the problem needs to be identified in terms of its requirements related to  the closeness between the zones. If there is a closeness requirement then the approaches mentioned in the TCR approach need to be considered and if here isn't a closeness requirement the sequential approach or the Linear assignment approach can be considered.The sequential assignment approach has an advantage in generating topologically well formed zones since there is no interference of the growth of other agents but it performs poorly when it comes to achieving the performance goals for each of the zones due to unequal access. The Linear assignment approach performs excellently in achieving the performance goals since it has a finer resolution for growth and scans the environment fields more accurately. However it may perform badly in terms of topological structure since generation of a single island is not under consideration in the method.
+
+One of the biggest drawbacks or limitations in the whole Agent based method is the lack of communication between the agents while performing the behaviour. The whole requirement of an improvement step will be eliminated if the agents would communicate with each other before performing a behaviour against a voxels having shared interests. If this negotiation would happen during the simulation then the agents could grow in the topological form that they were programmed to grow into not affected by the growth of the other agents.
+
+One of the avenues which could be explored to generate good combinations is the use of evolutionary algorithms to search for a suitable permutation matrix for the agent origins. Since the nature of the growth of one agent affecting the other is not easily predictable.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_two_Sequential_Case.jpg" >}}
+The final output for the zoning has a voxel dimensions of 6x6x6m which is interpolated into a finer resolution of 3x3x3m for the unit assignment problem using the components from the Scipy Library. 
+
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_two_Sequential_Case.jpg" >}}
