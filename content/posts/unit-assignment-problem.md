@@ -97,7 +97,7 @@ The relationship chart indicating the closeness between the units in the problem
 For the Office zones there are two distinctions made between `Co-working` offices with a suffix `Common` and `Privately Owned` offices with a suffix `Private ` in the Rel-Chart below :
 
 | REl_CHART | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common | TCR |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Open Office Area Private | nil | 4 | 3 | -1 | -1 | -1 | 4 |
 | Cafeteria and Common room | 4 | nil | 2 | -1 | -1 | 3 | 3 |
 | Meeting Rooms Private | 0 | 2 | nil | -1 | -1 | -1 | -1 |
@@ -107,17 +107,15 @@ For the Office zones there are two distinctions made between `Co-working` office
 `Step2:` Developing the Spatial Quality matrices for the zone: 
 In the following steps the necessary matrices for the Agent based simulations will be done as seen in the Zoning problem beginning with generating the Spatial Quality matrices or enviornment matrices in the same manner as seen in [Enviornment lattices](/posts/zoning-problem-enviornment). The additional spatial quality indicator is the closeness to the green areas done for locating the common spaces in the units. 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Closeness_to_grren_Areas_viz.png" >}}
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Distance_from_Roof.png" >}}
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Quiteness_lattice.png" >}}
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Solar_lattice_zeroed.png" >}}
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
-
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment/Visibility_to_IJ.png" >}}
 
 
 `Step3:` Developing the Desirability matrices for the agents: 
