@@ -11,54 +11,18 @@ cover: ../Images/Unit_assignment_cover.gif
 description: Massing problem solution which involves finding the appropriate volumetric design of the building as the base for futher configurational resolution.
 showFullContent: false
 ---
-# Unit Assignment Problem Section 2
+# Unit Assignment Problem 
 
-The problem of finding the appropriate volumetric design of the building is the highest level of the space layout problem. In this stage the impact of placing volumes representing the built mass on the site is studied with respect to its effect on the surrounding buildings as well as its own performance in achieving the urban level design goals.
+ The Unit assignment problem deals with assigning units inside the zones created in the previous layer of the configuration problem. Unit can be defined as a entity in the space program which comprises of a self contained set of rooms collectively catering to a common function. A three room apartment in a zone dedicated for an apartment complex is example of unit inside a zone.
 
 # Aim
+The Unit Assignment problem can be classified into two categories:
+`The first category` is the zoning problem where there is no closeness relationship between the units of the zone and assigning the units anywhere inside the zone will have equal impact on the assignment goals. An example of this are the units or apartments which are to be assigned inside the zones like the Privately owned housing / Social sector rental housing / Free-Sector Rental Housing. The zones which have been designed for them already satisfy the desirability of the location in the building in the zoning problem itself so the aim at this stage would be to reach the target number of units inside the zone which can be achieved by simple mathematical subdivision of the grid. 
 
-To generate various massing variants for the site and select a variant which will maximise the site utilization without compromising on the quality of the spaces as defined by the architect.
+`The second category` of unit assignment problem is similar to the zoning problem where there is a relationship for the closeness of he units to each other and each unit itself has a preference for placement in the zone. The problem in this case would be a higher resolution zoning problem itself with closeness requirements. The aim here would be similar to the zoning problem to achieve the maximum benefit of assignment based on the desirability matrices for the various units considering the constraints of closeness in the problem. The Office zone in the Case of Buiksloterham can be considered as one such problem. 
 
-**some bold test**
-
-_italic_
-
-`color`
-
-{{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/01.Massing_problem/Massing_Problem_key_Image.jpg" >}}
-
-{{< image src="https://raw.githubusercontent.com/adityasoman/GEN-ARCH/main/05.Unit_detailing_problem/Units/1.png" style="width: 250px" >}}
-
-```python
+## Steps involved in the Unit Assignment problem:
+`Step1:` Interpolation of the Zoning problem output:
+The first step in the Unit assignment problem is to make the resolution of the voxelated grid finer from a 6x6x6m size to a 3x3x3m size. This finer resolution will make assigning the units more accurate due to the smaller division size of the area into voxels.
 
 
-# Python Program to find the area of triangle
-
-a = 5
-b = 6
-c = 7
-
-# Uncomment below to take inputs from the user
-# a = float(input('Enter first side: '))
-# b = float(input('Enter second side: '))
-# c = float(input('Enter third side: '))
-
-# calculate the semi-perimeter
-s = (a + b + c) / 2
-
-# calculate the area
-area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-print('The area of the triangle is %0.2f' %area)
-
-```
-
-### Summary
-
-
-| COL 1 | COL2 | COL 3 |
-| - | :- | :-: |
-| Architecure | Computation | Build |
-| Architecure 1 | Computation 1 | Build 1 |
-| Architecure 2 | Computation 2 | Build 2 |
-| Architecure 3 | Computation 3 | Build 3 |
-| Architecure 4 | Computation 4 | Build 4 |
