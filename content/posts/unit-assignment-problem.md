@@ -48,14 +48,18 @@ The first step in the Unit assignment problem is to make the resolution of the v
 `Step2:`Assigning Vertical and Horizontal Shafts:
 In the base lattice consisting of zones and a high resolution lattice with smaller voxels first the shafts would be assigned . The shafts in this case includes the vertical circulation elements like the stairwell and the elevators as well as the buildings services shafts. The horizontal shafts would include the circulation passages connecting the various spaces in the building.The approach taken towards assigning the shafts depends on the `path-space relationship` for the horizontal shafts and the `base shape` for the vertical shafts.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Path_Space_relationships-01.png" >}}
 Path-Space Relationship diagrams.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Horizontal%20Shafts%20buiksloterham.jpg" >}}
+Shaft assignment done in the model.
+
 
 `Step3:`Assigning Green Spaces:
 The assignment of green spaces depending on the shape of the Zones and the units needs to be done. The location of Green spaces has the potential to elevate the spatial quality of the units and the zones around it.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
-FThe green zones are assigned at intersections of zones.
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Green_Spaces_buiksloterham.jpg" >}}
+The green zones are assigned at intersections of zones.
 
 `Step4:`Assigning the first category of Units:
 The first category of units are the ones without any closeness requirements or relations. These include all the housing zones in the space program and the zoning output which will be assigned first.
@@ -70,13 +74,13 @@ In the first category of units all the units under the residential function are 
 `Step1:` Generating the modules for units:
 The privately owned housing units have two categories as seen in the Large house consisting of 18 voxels and the medium house consisting of 9 voxels. The zone for the privately owned housing is split in the center by the horizontal circulation space in the previous step and is symmetrical with one side containing a maximum of 3 voxels. Considering this dimension as the extent for each unit since intermediate units are not desirable due to poor access to the sun the units for the large and the medium can have a shape of 3x6 voxels and 3x3 voxels respectively. 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Units-02.png" >}}
 Basic Units.
 
 `Step2:` Generating the intermediate modules:
 The counting of the voxels is done in each direction for the two symmetrical sections of the zone. One dimension is the same being 3 voxels but the other dimension will keep on varying. This variation in the other dimension will lead to instances where the dimension is not divisible by three which is the minumum size of the unit (Medium house). For these specific instances intermediate scaled units need to be designed. In the shape for the privately owned housing two such intermediate unit types need to be made of sizes 4x3 voxels and 5x3 voxels respectively. 
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Step_one_Sequential_Case.jpg" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Units-03.png" >}}
 Intermediate Units.
 
 `Step3:` Assigning the modules according to the desirability matrix:
@@ -116,5 +120,5 @@ In the following steps the necessary matrices for the Agent based simulations wi
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
 
 
-`Step2:` Developing the Desirability matrices for the agents: 
+`Step3:` Developing the Desirability matrices for the agents: 
 In the following steps the necessary matrices for the Agent based simulations will be done as seen in the Zoning problem beginning with generating the Spatial Quality matrices or enviornment matrices in the same manner as seen in [Desirability lattices](/posts/zoning-problem-MCDA). The additional spatial quality indicator is the closeness to the green areas done for locating the common spaces in the units. 
