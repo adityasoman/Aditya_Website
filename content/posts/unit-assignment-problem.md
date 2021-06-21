@@ -86,3 +86,35 @@ This process is repeated for the other two type of housing units, thus concludin
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
 
 ## Steps involved in assigning the Second category of Units:
+The second category of units are the ones having closeness requirements with each other. An example of this is the zone for Offices and the restaurants and retails zones. To show the method the offices zone will be considered. The approach taken will be similar to the agent based method taken for the zoning problem with an added contraint of closeness.
+
+`Step1:` Generating the REL-CHART: 
+The relationship chart indicating the closeness between the units in the problem needs to be established first. This will indicate the constraints for the agent orgin locations in the model further. In this approach the Total closeness rating is considered which is an aggregated value of the closeness ratings for each zones as seen in the table below. According to this Total closeness rating the agents will be deployed.
+For the Office zones there are two distinctions made between `Co-working` offices with a suffix `Common` and `Privately Owned` offices with a suffix `Private ` in the Rel-Chart below :
+
+| REl_CHART | Open Office Area Private | Cafeteria Private | Meeting Rooms Private | Open Office Area Common | Meeting Rooms Common | Cafeteria Common | TCR |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Open Office Area Private | nil | 4 | 3 | -1 | -1 | -1 | 4 |
+| Cafeteria and Common room | 4 | nil | 2 | -1 | -1 | 3 | 3 |
+| Meeting Rooms Private | 0 | 2 | nil | -1 | -1 | -1 | -1 |
+| Open Office Area Common | -1 | -1 | -1 | nil | 3 | 4 | 4 |
+| Meeting Rooms Common | -1 | -1 | 1 | 4 | nil | 0 | 3 |
+
+`Step2:` Developing the Spatial Quality matrices for the zone: 
+In the following steps the necessary matrices for the Agent based simulations will be done as seen in the Zoning problem beginning with generating the Spatial Quality matrices or enviornment matrices in the same manner as seen in [Enviornment lattices](/posts/zoning-problem-enviornment). The additional spatial quality indicator is the closeness to the green areas done for locating the common spaces in the units. 
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_assignment_cover.gif" >}}
+
+
+`Step2:` Developing the Desirability matrices for the agents: 
+In the following steps the necessary matrices for the Agent based simulations will be done as seen in the Zoning problem beginning with generating the Spatial Quality matrices or enviornment matrices in the same manner as seen in [Desirability lattices](/posts/zoning-problem-MCDA). The additional spatial quality indicator is the closeness to the green areas done for locating the common spaces in the units. 
