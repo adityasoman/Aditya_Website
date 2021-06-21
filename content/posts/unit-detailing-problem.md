@@ -7,7 +7,7 @@ tags:
 keywords:
   - architecture
   - computation
-cover: ../Images/Unit_Layout.gif
+cover: ../Images/Unit_Detailing.gif
 description: Finding the appropriate volumetric design of the building
 showFullContent: false
 ---
