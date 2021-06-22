@@ -55,26 +55,35 @@ Maximum rooms on the facade = 9/3 = 3Rooms
 | Toilet | 2 | 3 |
 Initial master input by the Architect
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_one.png" >}}
 Initial layout of the unit
 
 `Step3:`Generation of Base blocks:
 The initialization process is completed at step two so all the necessary input for the floor plan generation is ready. In this step the base blocks for all the spaces is initialized and enumerated. The base block considered for each room is the minimum size of the room which is needed. The enumerated options for the base blocks can be seen in the image below. The options for the Toilet block to be placed on the left /right side of the service block is also explored with the enumerations.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_two.png" >}}
 Base block initialization for the units
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_two.gif" >}}
+Base block enumeration
 
 `Step4:`Distribution of remaining voxels:
 After all the possible options are enumerated for the base blocks the question for distribution of remaining voxels is tackled. The total number of voxels in the base grid is 9x6 = 54 voxels, when subracted with the base blocks the number of voxels which are unassigned are 23 cells. These 23 cells have to be distributed among the 4 rooms in all possible ways. At this stage a constraint is added that the shape of the rooms should remain **largely rectangular** which means that at a time the cells corresponding to the minimum size for the room have to be added to the base block. This constrained coupled with the maximum possibility of having 3 rooms on the facade and the requirement of 3 rooms connected to the facade reduces the search space considerably. The possible floor plans because of this is around 7x4 = 28 floor plans. The base enumeration results in 7 options and the added options are based in the possible enumerations of toilet sizes and locations on either the left or the right side
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_three.png" >}}
 Distribution of remaining voxels for the rooms in the unit
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_three.gif" >}}
+Distribution of remaining voxels enumerations
 
 `Step5:`Creation of Passages in the Layout:
 Passages can be created to create more layout options and to improve the connectivity of the enumerated layouts in the step 4. Passages Can be created by specifying the path start and the end voxel and the shortest path can be created using the same method as described in the unit assignment problem horizontal shaft creation.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_four.png" >}}
 Creation of passages in the units.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_four.gif" >}}
+Creation of passages in the units enumeration.
 
 `Alternative Design criteria:`
 The layout possibilities become more interesting if the requirement of the rooms needing direct access to the facade is reduced . If the Toy problem is modified where the Kitchen no longer needs access to the facade the possibilities will increase considerably. The enumeration possibilities can be determined by creating a possible shape options for the rooms based on the minimum and the maximum sizes as shown in the table below:
@@ -92,7 +101,10 @@ The layout possibilities become more interesting if the requirement of the rooms
 | 5x6 | 5x6 | | |
 | 6x6 | 6x6 | | |
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_five.png" >}}
+Alternative Design Possibilities.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout/Step_five.gif" >}}
 Alternative Design Possibilities.
 
 The enumerations because of this process can be seen in the last part of the image where the dimension of the room vary in X axis as well
@@ -106,4 +118,4 @@ The approach proposed in the thesis offers a controllable generation of the unit
 
 Alternatively the participants can be given a minecraft like game setting where they can do the assignment process of the rooms themselves to get familiarised with the process and get a better understanding of the participation process.The final out of this step is the selected high resolution voxelated layout showing the room placement inside the unit for the next step which is the unit detailing stage
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Initial_Positions_agents.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Layout_Problem_to_unit_detailing_problem.png" >}}
