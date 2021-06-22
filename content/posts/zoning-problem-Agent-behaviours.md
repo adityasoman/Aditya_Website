@@ -87,6 +87,9 @@ new_origin = selected_voxel
 
 ```
 
+All the behaviours can be tried using this binder link:
+The binder link to the code [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adityasoman/GEN-ARCH_Binder/61837cfde296ad9ee000b937d9f3c8db62dbd6d8?filepath=02.Zoning_problem%2FAgent_behaviours%2FAgent_behaviours.ipynb)
+
 ## 2D Rectangular growth behaviour
 
 In this behaviour the primary stencil used to find the neighbours is the 4 neighbourhood one. After the values of the neighbours are retrieved from the environment lattice the maximum valued neighbour is picked for the next iteration. The values for neighbours of neighbours get a boost in this type of behaviour hence the occupancy pattern for the agent is in a rectangular manner. If the behaviour reaches a point where no neighbours are available for occupancy then the search space is gradually increased to 8 neighbourhood area and finally to the full floor lattice.
