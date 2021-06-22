@@ -49,9 +49,8 @@ As a first step a plan is selected from the unit layout problem stage for furthe
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing/Voxel_Adjacency.png" >}}
 The faces inside a voxel can be represented by indices and boolean values can indicate if its present or not. Each voxel in the layout will have the details embedded in it.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing/All_Blocks-01.png
-" >}}
-ALl the blocks that were created for the Toy problem
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing/All_Blocks-01.png" >}}
+All the blocks that were created for the Toy problem
 
 `Step2:`Block information input:
 Along with the creation of blocks the information stored in each one of the blocks also needs to be filled. The level of information depends on what kind of dashboards or feedback the stakeholders expect. The dashboard will keep on updating the necessary details when the blocks are assigned to inform the user about the selected performance parameters. Based on that the user can modify/ create new blocks for meeting the goals. 
