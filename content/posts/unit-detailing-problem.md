@@ -46,12 +46,12 @@ From the selected Unit Layout to a voxelated output
 `Step1:` Initilization and Block creation:
 As a first step a plan is selected from the unit layout problem stage for further developing in the unit detailing stage. The blocks are configured in the following manner: Every block will have flooring slab , flooring finish , Ceiling finish . There is a further option of creating a block with wall segment for internal walls and facade segment for external walls. The blocks with wall segment can be created either as a peripheral wall block or a central wall block. To create a set of blocks which will generate any type of an layout both the types of blocks are necessary. Furthermore in case of a block with wall the blocks need to be made with a single wall , with double wall for corner junctions for both the centrally placed walls as well as the peripheral walls. The walls themselves can have openings which can be plain empty openings, doors, and windows.The information regarding all of this can be stored in the voxel id as seen in the image below .
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing/Exploded_voxel.png" >}}
-The faces inside a voxel can be represented by indices and boolean values can indicate if its present or not. 
-
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing/Voxel_Adjacency.png" >}}
-Each voxel in the layout will have the details embedded in it.
+The faces inside a voxel can be represented by indices and boolean values can indicate if its present or not. Each voxel in the layout will have the details embedded in it.
 
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing/All_Blocks-01.png
+" >}}
+ALl the blocks that were created for the Toy problem
 
 `Step2:`Block information input:
 Along with the creation of blocks the information stored in each one of the blocks also needs to be filled. The level of information depends on what kind of dashboards or feedback the stakeholders expect. The dashboard will keep on updating the necessary details when the blocks are assigned to inform the user about the selected performance parameters. Based on that the user can modify/ create new blocks for meeting the goals. 
@@ -64,5 +64,5 @@ Each voxel can have a information layer along with the geometry layer
 The blocks are assigned in the voxelated grid either room by room or by simply enumerating through the array in row wise or column wise manner. The blocks are picked based on the location of the voxel in the floor plan. The voxels in the room clusters store information regarding their position (corner/intermediate/junction) and requirement like doors and windows based on which appropriate block is assigned. In the manual process the appropriate blocks can be selected manually and assigned. This concludes the unit-detailing process.
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Unit_Detailing.gif" >}}
-Unit Assignment base don the choices made by the user
+Unit Assignment based on the choices made by the user
 
