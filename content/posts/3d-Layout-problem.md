@@ -1,5 +1,5 @@
 ---
-title: 05 Unit Detailing Problem
+title: The Layout problem
 date: "2021-06-01"
 tags:
   - architecture
@@ -8,10 +8,10 @@ keywords:
   - architecture
   - computation
 cover: ../Images/Unit_Detailing.gif
-description: Finding the appropriate volumetric design of the building
+description: This article explains the 3D Layout problem which is the basis of the project
 showFullContent: false
 ---
-# Massing Problem Section 1
+# The 3D Layout Problem
 
 The Unit detailing problem deals with generation of design details for the units developed in the unit layout problem. Design details may consists of the following things . Materials and components of the various infill layers in the unit like Walls, Windows, facades, floors, ceilings, installations, furniture's etc. The clear distinction between the structure and infill has been made in the open building concept and the infill layer is the main element which will be detailed in the unit detailing problem. The structure layer should ideally be resolved in the unit assignment problem itself so at this stage there is already information regarding the structure of the building
 
