@@ -87,8 +87,7 @@ new_origin = selected_voxel
 
 ```
 
-All the behaviours can be tried using this binder link:
-The binder link to the code [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adityasoman/GEN-ARCH_Binder/61837cfde296ad9ee000b937d9f3c8db62dbd6d8?filepath=02.Zoning_problem%2FAgent_behaviours%2FAgent_behaviours.ipynb)
+All the behaviours can be tried using this binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adityasoman/GEN-ARCH_Binder/61837cfde296ad9ee000b937d9f3c8db62dbd6d8?filepath=02.Zoning_problem%2FAgent_behaviours%2FAgent_behaviours.ipynb)
 
 ## 2D Rectangular growth behaviour
 
