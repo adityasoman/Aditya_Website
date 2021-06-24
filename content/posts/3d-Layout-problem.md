@@ -7,7 +7,7 @@ tags:
 keywords:
   - architecture
   - computation
-cover: ../Images/Unit_Detailing.gif
+cover: ../Images/Architectural_configuration.png
 description: This article explains the 3D Layout problem which is the basis of the project
 showFullContent: false
 ---
@@ -17,6 +17,8 @@ The problem of 3D layout configuration, when regarded in its full sophistication
 
 
 In this thesis an attempt is made to systematically separate the process of 3D layout configuration as a series of steps with local goals and with a certain set of assumptions and simplifications to achieve the global spatial planning goals. In the following section each level of problem will be elaborated further with the stakeholders involvement in them the detailed mathematical formulation and the method used will be elaborated further in the report.
+
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Architectural_configuration.png" >}}
 
 `Massing problem:`
 The highest nesting level of problem is the massing problem.As a first step toward solving the problem a volumetric representation of the building needs to be generated. In architectural practise it is common to sketch out various design options for the project on a conceptual level using representative 3d blocks having a low resolution of details. In this stage of the design process Architects, Developers, Governing authorities like Municipal corporations are the main stakeholders involved. The goals for the  Architects is develop their concepts on the brief provided by the Developers. The goal of Developers is to maximise the profit or the developable area on the site and the goal of the Governing bodies is to assess the impact of the development on the immediate surroundings and the city and to safeguard the rights of the citizens of the block.
