@@ -1,6 +1,6 @@
 ---
 title: The Layout problem
-date: "2021-06-01"
+date: "2021-06-09"
 tags:
   - architecture
   - zoning

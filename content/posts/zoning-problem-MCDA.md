@@ -1,6 +1,6 @@
 ---
 title: 02 Zoning Problem - Agent Performance criteria
-date: "2021-06-04"
+date: "2021-06-02"
 tags:
   - Participatory Design
   - Zoning problem

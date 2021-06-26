@@ -1,6 +1,6 @@
 ---
 title: 02 Zoning Problem - Agent Behaviours
-date: "2021-06-03"
+date: "2021-06-01"
 tags:
   - Agent based Modelling
   - Artificial Intelligence
@@ -144,7 +144,7 @@ The 3d growth behaviour of agents towards each other or away from each other can
 
 The steps for generating the agent behaviours are as follows:
 
-First from a voxelated grid using the Von-neumann stencil as a connectivity relation a graph is created.The generation of the graph is done using the library network x[\cite{SciPyProceedings_11}]. The minimum distance from all the voxels to the rest of the voxels are generated using the Flyod Warshall algorithm for finding the minimum distances.
+First from a voxelated grid using the Von-neumann stencil as a connectivity relation a graph is created.The generation of the graph is done using the library [network x](https://networkx.org/). The minimum distance from all the voxels to the rest of the voxels are generated using the Flyod Warshall algorithm for finding the minimum distances.
 
 Then the points of interest or voxels of interest are choosen from the grid and the distance matrix for them are generated using the output from the Floyd Warshall algortihm. Distance matrix is nothing but the graphical distance or Manhattan distance from each voxel to the voxel of interest.
 
