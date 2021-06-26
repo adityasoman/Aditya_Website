@@ -49,11 +49,11 @@ paginate = 100
 [languages]
   [languages.en]
     languageName = "English"
-    title = "aditya"
-    subtitle = "Developer blog"
+    title = "Computational Design Works"
+    subtitle = "Architecture and Computational Design"
     owner = "sid"
     keywords = ""
-    copyright = "© 2021 aditya"
+    copyright = "© 2021 computationaldesignworks.com"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
