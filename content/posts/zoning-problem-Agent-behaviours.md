@@ -4,7 +4,7 @@ date: "2021-06-03"
 tags:
   - Agent based Modelling
   - Artificial Intelligence
-  - Zoning problem 
+  - Zoning problem
 
 keywords:
   - architecture
@@ -12,9 +12,10 @@ keywords:
   - Agent based Modelling
 
 cover: ../Images/zoning/Agent_Behaviours.gif
-description: The article explains the logic behind the Agent behaviours in the multi-agent system designed for the zoning problem. 
+description: The article explains the logic behind the Agent behaviours in the multi-agent system designed for the zoning problem.
 showFullContent: false
 ---
+
 # Agent Behaviours
 
 The third part of the multi agent system are the agents. Before starting with description of the various agent behaviours developed in the project certain terminology used in the text is described as follows:
@@ -23,12 +24,11 @@ The third part of the multi agent system are the agents. Before starting with de
 
 `2.Multi-Agent system:`An agent-based system also can exist with several agents having the characteristics as described in the previous paragraph. Such a system is called as a multi-agent system.
 
-`3.Agent Behaviors:` The  actions  which  the  agent can perform to achieve its goals.
+`3.Agent Behaviors:` The actions which the agent can perform to achieve its goals.
 
 `4.Stencil:` The neighborhood definition in a discrete 3d space.
 
 In the project several agent behaviours were developed. They can be classified into three main criterias _Agent Origin, Occupy/Unoccupy and Attraction/Repulsion._
-
 
 # Stencils
 
@@ -42,12 +42,11 @@ The other stencils developed are derived from these two main stencils. The four 
 
 The full floor lattice and the full lattice are considered for searching the whole search space in two dimensions or three dimensions.The full floor lattice considers the maximum extents of the horizontal or vertical slice and the full lattice considers the complete 3d lattice.
 
-
 # Occupy/Unoccupy Behaviour
 
 The Occupy behaviour is a class of behaviours which the agent can perform to occupy certain voxels based on their values and neighbourhood condition in a voxelated lattice. The occupy behaviour can be further classified into two dimensional and three dimensional behaviours depending on the stencil which determines their neighbour search space.
 
-The occupy behaviour works in the following manner. The first step involves identifying the neighbours based on a selected stencil from the stencils described in the previous section.The desirability value for each voxel can be derived form the performance lattice as described in [Performance criteria](/posts/zoning-problem-MCDA) which becomes the environment lattice for the agent to perform the behaviour. The values in the environment lattice for the identified neighbours in the occupancy lattice are extracted and the best or the worst value is picked by the agent and the corresponding voxel is occupied.This process goes on till the number of voxels occupied by the agent is satisfied.
+The occupy behaviour works in the following manner. The first step involves identifying the neighbours based on a selected stencil from the stencils described in the previous section.The desirability value for each voxel can be derived form the performance lattice as described in [Performance criteria](/posts/zoning-problem-mcda) which becomes the environment lattice for the agent to perform the behaviour. The values in the environment lattice for the identified neighbours in the occupancy lattice are extracted and the best or the worst value is picked by the agent and the corresponding voxel is occupied.This process goes on till the number of voxels occupied by the agent is satisfied.
 The generalised pseudocode for the same is shown below:
 
 ```python
@@ -56,9 +55,9 @@ Base_lattice=[ixjxk]
 Desirability_lattice=[ixjxk]
 
 # Define the behaviour requirements
-Number= [int] # number of voxels agent needs to occupy 
+Number= [int] # number of voxels agent needs to occupy
 # Define the stencils required
-stencil = tg.createstencil(”vonneumann”,1, 1) 
+stencil = tg.createstencil(”vonneumann”,1, 1)
 
 # Define the Agent class
 agent():
@@ -69,12 +68,12 @@ id = unique number to trace agent behaviour
 
 # def Agent_behaviour(self,env):
 neighs = origin.findneighbours(stencil) # retrieves neighbours based on stencil
-# Filter out available neighbours 
+# Filter out available neighbours
 avail_neighs = Base_lattice[neighs==1]
-# In case of no neighbours available 
-len(avail_neighs) == 0 
+# In case of no neighbours available
+len(avail_neighs) == 0
 then:
-stencil == bigger stencil 
+stencil == bigger stencil
 # Find corresponding value from desirability lattice for available neighbours
 vals = valuelattice [availneighs]
 # select the highest valued neighbour
@@ -105,50 +104,39 @@ In this behaviour the primary stencil used to find the neighbours is the 8 neigh
 
 **2D Circular growth behaviour**
 
-
 ## 2D Random growth behaviour
 
 In this behaviour the primary stencil used to find the neighbours can be 4 or 8 neighbourhood one. The maximum valued neighbour is picked and no boost is given in the values for neighbours of neighbours. This leads the agent to purely follow the values of the environment lattice as the basis for occupancy. This behavior has its advantages when it comes to achieving the maximum valued voxels for a function due to its singular nature in selection but it can also lead to a haphazard growth with many islands in its graph structure and with holes in between.
-
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax_2d.gif" >}}
 
 **2D random growth behaviour**
 
-
 ## 3D Spherical growth behaviour
 
 In this behaviour the primary stencil used to find the neighbours is the 26 neighbourhood one. This allows for selection in three dimensions. The neighbours for each agent position are stored in a list which is referred in every iteration to check for neighbours of neighbours. In this behaviour a boost is given based on the number of adjacent neighbours to a voxel under consideration. This boost creates a behaviour which forms a spherical pattern around the agent origin picking the best possible values in the environment field with the added boost based on neighbourhood occupancy condition.
-
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Spherical.gif" >}}
 
 **3D Spherical growth behaviour**
 
-
-
 ## 3D Cuboidal growth behaviour
 
 In this behaviour the primary stencil used to find the neighbours is the 6 neighbourhood one. Similar to the Spherical behaviour the neighbours for each agent position are stored in a list which is referred in every iteration to check for neighbours of neighbours also a boost is given based on the number of adjacent neighbours to a voxel under consideration.
 
-The chances of this behaviour running into conditions where there are zero neighbours is higher since it only considers vertically and horizontally connected neighbours and not the diagonal ones, hence the secondary stencil in this case is the  Moore neighbourhood one and finally the tertiary one being the full lattice one so that the agent has the chance to move away from the no neighbour position and restart at a different location.This boost along with the stencils creates a behaviour which forms a cuboidal pattern around the agent origin picking the best possible values in the environment field with the added boost based on neighbourhood occupancy condition.
-
+The chances of this behaviour running into conditions where there are zero neighbours is higher since it only considers vertically and horizontally connected neighbours and not the diagonal ones, hence the secondary stencil in this case is the Moore neighbourhood one and finally the tertiary one being the full lattice one so that the agent has the chance to move away from the no neighbour position and restart at a different location.This boost along with the stencils creates a behaviour which forms a cuboidal pattern around the agent origin picking the best possible values in the environment field with the added boost based on neighbourhood occupancy condition.
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Cuboid.gif" >}}
 
 **3D Cuboidal growth behaviour**
 
-
-
 ## 3D Random growth behaviour
 
 The 3d random growth behavior is similar to the 2d random growth behavior one but with a different stencil sets. In this behaviour the primary stencil can be the 6 neighbour Von-neumann stencil or the 26 neighbour Moore neighbourhood thus enabling a three dimensional behaviour. The selection of voxels is based on the argmax of the values form the available neighbours and there is no preference for neighbours of neighbours.This leads to a better output in terms of capturing the higher performing voxels for the agent but the topological requirements of single island and no hole polynomio are not satisfied. Ideally these behaviours can be used to unoccupy poorly formed shapes in the zoning model or occupying non connected discrete spaces.
 
-
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Argmax.gif" >}}
 
 **3D random growth behaviour**
-
 
 ## Attraction/Repulsion Behaviour
 
@@ -161,7 +149,6 @@ First from a voxelated grid using the Von-neumann stencil as a connectivity rela
 Then the points of interest or voxels of interest are choosen from the grid and the distance matrix for them are generated using the output from the Floyd Warshall algortihm. Distance matrix is nothing but the graphical distance or Manhattan distance from each voxel to the voxel of interest.
 
 Once the distance matrices are generated for both the points of interest they are used as environment lattices for the agent based simulation for the agents to grow or move towards each other depending on the use case
-
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/zoning/Attraction.gif" >}}
 
