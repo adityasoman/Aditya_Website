@@ -10,4 +10,4 @@ support structures. The project was my Msc. thesis project done at the [Genesis]
 
 {{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/TU_Delft_Logo.png" >}}
 
-> Interested to know more? [contact me](https://typeform.com)
+> Interested to know more? [contact me](https://uft75po3l1x.typeform.com/to/giZe1du1)
