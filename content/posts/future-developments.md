@@ -22,6 +22,5 @@ Once the platform is built then the development would be guided by the users of 
 
 Here are some snippets of the potential UI for the platform:
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/UI/Platform%20UI-01.jpg" >}}
-Initial Dashboard
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Final%20Dashboards%20HQ-01.png" >}}
 
