@@ -7,18 +7,18 @@ tags:
 keywords:
   - architecture
   - computation
-cover: ../Images/Architectural_configuration.png
-description: This article explains the 3D Layout problem which is the basis of the project
+cover: ../Images/Stakeholders-04.png
+description: This article explains the complexities of the 3D Layout problem 
 showFullContent: false
 ---
 # The 3D Layout Problem
 
-The problem of 3D layout configuration, when regarded in its full sophistication, is a classical example of a wicked problem that is at the same time a complex combinatorial problem which can be classified as a NP-hard problem , and arguably the most difficult problem of computational design for which the level of ‘control’ provided by the claimed methods in the literature is limited.
+The problem of 3D layout configuration, when regarded in its full sophistication, is a classical example of a wicked problem that is at the same time a complex combinatorial problem which can be classified as a NP-hard problem , and arguably the most difficult problem of computational design for which the level of ‘control’ provided by the claimed methods in the literature is limited.This is majorly because of the Human Physical complexities involved. Reaching a consesus among the actors itself is very difficult because of contrasting ideas and focus points of the actors about the configuration.
 
 
-In this thesis an attempt is made to systematically separate the process of 3D layout configuration as a series of steps with local goals and with a certain set of assumptions and simplifications to achieve the global spatial planning goals. In the following section each level of problem will be elaborated further with the stakeholders involvement in them the detailed mathematical formulation and the method used will be elaborated further in the report.
+In this thesis an attempt is made to systematically separate the process of 3D layout configuration as a series of steps with local goals and with a certain set of assumptions and simplifications to achieve the global spatial planning goals. In the following section each level of problem will be elaborated further with the stakeholders(actor) involvement in them the detailed mathematical formulation and the method used will be elaborated further in the report.
 
-{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Architectural_configuration.png" >}}
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Consessus%20Diagram.png" >}}
 
 `Massing problem:`
 The highest nesting level of problem is the massing problem.As a first step toward solving the problem a volumetric representation of the building needs to be generated. In architectural practise it is common to sketch out various design options for the project on a conceptual level using representative 3d blocks having a low resolution of details. In this stage of the design process Architects, Developers, Governing authorities like Municipal corporations are the main stakeholders involved. The goals for the  Architects is develop their concepts on the brief provided by the Developers. The goal of Developers is to maximise the profit or the developable area on the site and the goal of the Governing bodies is to assess the impact of the development on the immediate surroundings and the city and to safeguard the rights of the citizens of the block.
@@ -49,3 +49,7 @@ In the unit layout problem the main goal is to generate the infill needed for th
 
 `Unit Detailing problem:`
 The Unit detailing problem is the next step after the Unit layout problem. The main goal of this step is to specify the infill details which are defined in the unit layout stage. The end user along with the architect will decide on the materiality of the infill elements where the end user can pick elements from the catalogue defined by the architect. The tool at this stage will give output by the means of a dashboard with various indicators for the end-user to understand the financial, sustainability and spatial aspects of the choices made. based on looking at the output of the Dashboard the user can keep on changing the choices till an desired outcome is generated. The catalogue will be developed by the Architect in collaboration with the Building Product manufacturers and Building contractors for maintaining accuracy in the details of it
+
+
+The computational design methods used in solving the problems take inspiration form a lot of disciplines in solving similar problems as seen in the figure below:
+{{< image src="https://raw.githubusercontent.com/adityasoman/Aditya_Website/main/content/Images/Architectural_configuration.png" >}}
