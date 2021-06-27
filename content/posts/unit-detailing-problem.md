@@ -2,13 +2,14 @@
 title: 05 Unit Detailing Problem
 date: "2021-05-28"
 tags:
-  - architecture
-  - zoning
+  - Architectural Detailing
+  - Generative design detailing
+  - Automated modelling 
 keywords:
   - architecture
   - computation
 cover: ../Images/Unit_Detailing.gif
-description: Finding the appropriate volumetric design of the building
+description: This article talks about assigning design details for the units configured in the problem.
 showFullContent: false
 ---
 # Unit Detailing problem

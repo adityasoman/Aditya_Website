@@ -11,7 +11,7 @@ keywords:
   - Multi criteira decision analysis
 
 cover: ../Images/zoning/Parking.png
-description: The article explains the simplified enviornmetal simulations done for generating a base for decision making.
+description: The article explains the decision making process and resulting outputs for the Zones in the massing model.
 showFullContent: false
 ---
 

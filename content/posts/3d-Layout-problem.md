@@ -3,10 +3,11 @@ title: The Layout problem
 date: "2021-06-09"
 tags:
   - architecture
-  - zoning
+  - 3D Layout Problem
+  - Generative floor planning
 keywords:
   - architecture
-  - computation
+  - Generative Space Layout
 cover: ../Images/Stakeholders-04.png
 description: This article explains the complexities of the 3D Layout problem 
 showFullContent: false

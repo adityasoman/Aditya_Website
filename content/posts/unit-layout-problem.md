@@ -3,12 +3,13 @@ title: 04 Unit Layout Problem
 date: "2021-05-29"
 tags:
   - architecture
-  - zoning
+  - 3D Layout Problem
+  - Generative floor planning  
 keywords:
   - architecture
   - computation
 cover: ../Images/Unit_Layout.gif
-description: Finding the appropriate volumetric design of the building
+description: This article talks about configuration of floor plans of individual units.
 showFullContent: false
 ---
 

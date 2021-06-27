@@ -11,7 +11,7 @@ keywords:
   - Enviornmental simulations
 
 cover: ../Images/Quiteness_lattice.png
-description: The article explains the simplified enviornmetal simulations done for generating a base for decision making. 
+description: The article explains the simplified enviornmetal simulations indicating spatial qualities done for generating a base for decision making. 
 showFullContent: false
 ---
 # Enviornment Simulation Lattices
