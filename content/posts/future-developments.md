@@ -10,10 +10,10 @@ keywords:
   - Generative floor planning
   - Participatory Design 
   - Open Building Configurator
-  description: This article talks about the future development of the platform.
+description: This article talks about the future development of the platform.
 showFullContent: false
 ---
-# Introduction
+# Future Developments
 
 The configuration problem as stated in the thesis is a set of nested problems which are linear in scale ranging from the urban level massing to the smallest scale of configuring the details of the rooms inside the units. However these problems and the solutions proposed for them can even be used individually to solve a problem. For example if the configuration problem involves re-using or renovating an existing building then the data from the existing site conditions and the building will act as a base so the level of problem would start from the zoning problem itself since the existing building will be the base massing. Hence, developing a platform would be beneficial where a wide variety of projects at various stages could be configured.
 
