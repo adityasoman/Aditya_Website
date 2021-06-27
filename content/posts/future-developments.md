@@ -10,6 +10,7 @@ keywords:
   - Generative floor planning
   - Participatory Design 
   - Open Building Configurator
+  description: This article talks about the future development of the platform.
 showFullContent: false
 ---
 # Introduction
