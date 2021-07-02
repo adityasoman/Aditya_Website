@@ -1,7 +1,7 @@
 # About
 
 GEN-ARCH is a platform for generative participatory design of [Open Buildings](https://www.openbuilding.co/) at the scale of
-support structures. The project was my Msc. thesis project done at the [Genesis](https://genesis-lab.dev/) lab at Technical University of Delft under the supervision of Dr. ir. Pirouz Nourian, Prof.ir. Thijs (M.F.) Asselbergs, ir. S. Azadi.
+support structures. The project was my Msc. thesis project done at the [Genesis](https://www.tudelft.nl/en/architecture-and-the-built-environment/research/research-facilities/genesis-lab) lab at Technical University of Delft under the supervision of Dr. ir. Pirouz Nourian, Prof.ir. Thijs (M.F.) Asselbergs, ir. S. Azadi.
 
 {{< youtube id="V5nfpPYrtw4" autoplay="true" >}}
 
